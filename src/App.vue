@@ -12,7 +12,7 @@
   >
     <swiper-slide>
       <header>
-        <div class="py-3 py-md-4" style="min-height: 100vh;">
+        <div class="py-3 py-md-4 d-flex align-items-baseline" style="min-height: 100vh;">
           <div class="container-xxl">
             <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-4 gap-md-5 mb-4 mb-md-6">
               <a href="https://sibadi.org/">
@@ -55,10 +55,10 @@
                 </div>
                 <div class="row align-items-center mt-2">
                   <div class="col-md-6 text-center">
-                    <a href="" class="btn btn-danger" role="button">Подать заявку</a>
+                    <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
                   </div>
                   <div class="col-md-6 mt-3 mt-md-0 text-center subtitle">
-                    c 11 марта по 17 апреля
+                    c 15 апреля по 15 ноября
                   </div>
                 </div>
                 <div class="d-flex fs-4 gap-5 text-white mt-4 mt-md-6 justify-content-center justify-content-md-start">
@@ -74,7 +74,9 @@
                 </div>
               </div>
               <div class="col-md-6 order-first order-md-last">
-                <!-- лого -->
+                <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3">
+                  <img class="acc" style="max-width: 20vmax;" src="@/assets/-0+500.png" alt="-0+500">
+                </div>
               </div>
             </div>
           </div>
@@ -103,11 +105,11 @@
         </div>
       </div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide class="d-flex">
       <div class="container-xxl document">
-        <h2 class="titleNapr mt-5 mb-3" style="text-align: center;">Что вас ждет?</h2>
+        <h2 class="titleNapr mt-3 mb-3" style="text-align: center;">Что вас ждет?</h2>
         <div class="row align-items-center">
-          <div class="col-md-6 pt-md-0">
+          <div class="col-md-6 pt-md-0 mb-3">
             <img class="img-fluid rounded-4" src="@/assets/photo1.jpg" alt="">
           </div>
           <div class="col-md-6 order-first order-md-last">
@@ -116,7 +118,7 @@
                 <chevron_double />
               </div>
               <div class="col ps-0">
-                <p class="ab">Доступ к образовательному контенту и расширенной базе знаний</p>
+                <p class="ab">Доступ к образовательному <br> контенту и расширенной базе знаний</p>
               </div>
             </div>
             <div class="row">
@@ -147,7 +149,7 @@
               <div class="col-auto">
                 <chevron_double />
               </div>
-              <div class="col ps-0 py-2">
+              <div class="col ps-0 py-1">
                 <p class="ab">Привлечение финансирования</p>
               </div>
             </div>
@@ -160,11 +162,11 @@
         <h2 class="titleNapr mt-5 mb-3" style="text-align: center;">Программа акселератора</h2>
       </div>
     </swiper-slide>
-    <swiper-slide>
-      <div class="container-xxl document py-5 mt-5">
-        <div class="row">
+    <swiper-slide class="d-flex">
+      <div class="container-xxl document py-4 px-4 mt-5">
+        <div class="row align-items-center">
+          <h2 class="titleNapr mt-3 mt-md-2 mb-md-5 mb-3">Приходи если у тебя...</h2>
           <div class="col-md-6 pt-md-0">
-            <h2 class="titleNapr mt-2 mb-3">Приходи если у тебя...</h2>
             <div class="row">
               <div class="col-auto">
                 <check />
@@ -189,10 +191,82 @@
                 <p class="ab">Нет идеи, но очень хочешь попробовать</p>
               </div>
             </div>
-            
           </div>
           <div class="col-md-6 order-first order-md-last">
             <img src="@/assets/winner.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="d-flex">
+      <div class="container-xxl document py-4 px-4 mt-5">
+        <div class="row align-items-center">
+          <h2 class="titleNapr mt-3 mt-md-2 mb-md-4 mb-3">Причины, чтобы подать заявку</h2>
+          <div class="col-md-6 order-md-1 order-first">
+            <img src="@/assets/winner.jpg" alt="">
+          </div>
+          <div class="col-md-6 pt-md-0 order-md-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <search />
+              </div>
+              <div class="col">
+                <span class="ab">Подарки от партнёров</span>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <search />
+              </div>
+              <div class="col mt-3">
+                <p class="ab">Сертификат о прохождении акселерационной программы</p>
+              </div>
+            </div>
+          </div>
+          <p class="order-md-3 mt-3 mb-0 subsubtitle">Твой проект будут поддерживать опытные наставники, трекеры,  и эксперты, а индустриальные партнеры подскажут в каком направлении стоит развиваться!</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="d-flex">
+      <div class="container-xxl document py-4 px-4 mt-5 ell">
+        <div class="ellipse">
+          <img src="@/assets/ellipse.png" alt="">
+        </div>
+        <div class="row align-items-center">
+          <h2 class="titleNapr mt-2 mb-4">А дальше...</h2>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-auto">
+                <check_double />
+              </div>
+              <div class="col">
+                <p class="ab">Защита ВКР в формате <br> «Диплом как стартап»</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <check_double />
+              </div>
+              <div class="col">
+                <p class="ab">Сопровождение проекта от инвесторов и поддержка  в дальнейшем развитии проекта</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <check_double />
+              </div>
+              <div class="col">
+                <p class="ab">Возможность получения гранта в размере 1 000 000 рублей <br> от Фонда Содействия Инновациям</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <check_double class="last"/>
+              </div>
+              <div class="col">
+                <p class="ab">Зачёт автоматом по дисциплине «Основы проектной деятельности»</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -206,6 +280,8 @@
   import vk from '@/assets/vk.svg'
   import chevron_double from '@/assets/chevron-double.svg'
   import check from '@/assets/check.svg'
+  import search from '@/assets/search.svg'
+  import check_double from '@/assets/check_double.svg'
 
   import { Swiper, SwiperSlide } from 'swiper/vue'
   import 'swiper/css';
@@ -219,6 +295,8 @@
       vk,
       chevron_double,
       check,
+      search,
+      check_double,
       Swiper,
       SwiperSlide,
     },
@@ -230,32 +308,49 @@
   }
 </script>
 
-<style>
+<style scoped>
+.ellipse {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  transform: scale(.8);
+}
+.ell {
+  position: relative;
+}
 .document {
   background-color: #fff;
   border-radius: 1.125rem;
 }
 .ab {
-  font-size: 3vmin;
+  font-size: 3.5cqmin;
   font-weight: 700;
+  line-height: normal;
 }
 .titleNapr {
   color: #FF2323;
-  font-size: 6vmin;
+  font-size: 3cqmax;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
 }
+.subsubtitle {
+  font-size: 2cqmax;
+  font-weight: 700;
+  font-style: italic;
+  color: #6843fe;
+  
+}
 .subtitle {
   font-family: 'DM Sans', sans-serif;
-  font-size: 3vmin;
+  font-size: 2.5cqmin;
   font-weight: 500;
 }
 .btn-danger {
   border-radius: .75rem;
   color: white;
   background-color: #FF2323;
-  font-size: 1.5rem;
-  padding-inline: 3rem;
+  font-size: 3cqmin;
+  padding-inline: 2rem;
   padding-block: 1rem;
   font-weight: 700;
   font-family: 'DM Sans', sans-serif;
@@ -265,7 +360,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .title {
-  font-size: 11vmin;
+  font-size: 5cqmax;
   color: white;
   font-weight: 700;
   line-height: normal;
@@ -274,13 +369,13 @@
   color: #FF2323;
 }
 .slogan {
-  font-size: 7vmin;
+  font-size: 3.78cqmax;
   font-weight: 700;
   color: white;
 }
 .napr {
   font-family: 'DM Sans', sans-serif ;
-  font-size: 5vmin;
+  font-size: 2.5cqmax;
   font-weight: 700;
   color: white;
 }
@@ -289,31 +384,6 @@ header {
     @/assets/background.jpg) center;
   background-size: cover;
   color: white;
-}
-
-.logo {
-  transform: scale(1);
-  transition: all 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05);
-  path.teleg {
-    fill: #31baff;
-  }
-  path.vk {
-    fill: #0077ff;
-  }
-  g.email {
-    fill: #f7d33c;
-  }
-  path.email {
-    fill: #fff;
-  }
-}
-
-img {
-  border-radius: 1.125rem;
 }
 
 </style>
