@@ -33,4 +33,33 @@
 
 :root {
     --swiper-theme-color: #FF2323 !important;
+    --swiper-pagination-bullet-inactive-color: #6843fe;
+    --swiper-pagination-bullet-inactive-opacity: 0.6;
+}
+.logo {
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.05);
+  path.teleg {
+    fill: #31baff;
+  }
+  path.vk {
+    fill: #002fff;
+  }
+  g.email {
+    fill: #f7d33c;
+  }
+  path.email {
+    fill: #FF2323;
+  }
+}
+.last {
+  path.last {
+    stroke: #FF2323;
+  }
+}
+img:not(.acc) {
+  border-radius: 1.125rem;
 }
