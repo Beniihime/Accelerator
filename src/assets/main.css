@@ -4,6 +4,8 @@
 
 #app {
     height: 100%;
+    -webkit-user-select: none;
+    user-select: none;
   }
   html,
   body {
@@ -14,7 +16,7 @@
   .swiper {
     width: 100%;
     height: 100%;
-    background: #E6E6E6;
+    background: #b6d7e0;
   }
   
   .swiper-slide {
@@ -36,11 +38,25 @@
     --swiper-pagination-bullet-inactive-color: #6843fe;
     --swiper-pagination-bullet-inactive-opacity: 0.6;
 }
-.logo {
-  transform: scale(1);
-  transition: all 0.3s ease;
+.swiper-button-prev, .swiper-button-next {
+  top: var(--swiper-navigation-top-offset, 44%) !important;
 }
-.logo:hover {
+.logo_bl {
+  path.teleg {
+    fill: black;
+  }
+  g.email {
+    fill: black;
+  }
+  path.email {
+    fill: black;
+  }
+}
+.logo, .logo_bl {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.logo:hover, .logo_bl:hover {
   transform: scale(1.05);
   path.teleg {
     fill: #31baff;
@@ -62,4 +78,9 @@
 }
 img:not(.acc) {
   border-radius: 1.125rem;
+}
+.swiper-wrapper {
+  -webkit-transition-timing-function:linear!important; 
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important; 
 }

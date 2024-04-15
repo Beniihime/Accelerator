@@ -2,14 +2,18 @@
   <swiper
     :direction="'vertical'"
     :slidesPerView="1"
-    :spaceBetween="10"
+    :spaceBetween="0"
     :mousewheel="true"
-    :pagination="{
-      dynamicBullets: true,
+    :scrollbar="{
+      draggable: true
     }"
+    :freeMode="true"
+    :freeModeSticky="true"
+    :slideToClickedSlide="true"
     :modules="modules"
     class="mySwiper"
     @swiper="setSwiperRef"
+    @slideChange="updateButtonVisibility"
   >
     <swiper-slide>
       <header>
@@ -17,17 +21,17 @@
           <div class="container-xxl">
             <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-4 gap-md-5 mb-4 mb-md-6">
               <a href="https://sibadi.org/">
-                <img class="logo" style="max-height: 5rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
+                <img class="logo logo-animation" style="max-height: 5rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
               </a>
               <a href="https://univertechpred.ru/">
-                <img class="logo" style="max-height: 6rem;" src="@/assets/logo/PUTP.png" alt="putp">
+                <img class="logo logo-animation" style="max-height: 6rem;" src="@/assets/logo/PUTP.png" alt="putp">
               </a>
               <a href="https://vk.com/point.omsk">
-                <img class="logo" style="max-height: 5rem;" src="@/assets/logo/dot.png" alt="dot">
+                <img class="logo logo-animation" style="max-height: 5rem;" src="@/assets/logo/dot.png" alt="dot">
               </a>
             </div>
             <div class="row align-items-center mb-7">
-              <div class="col-md-6 pt-md-0">
+              <div class="col-md-6 pt-md-0 title-animation">
                 <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center text-md-start title">
                   Акселератор
                   <br>
@@ -62,7 +66,7 @@
                     c 15 апреля по 15 ноября
                   </div>
                 </div>
-                <div class="d-flex fs-4 gap-5 text-white mt-4 mt-md-6 justify-content-center justify-content-md-start">
+                <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center justify-content-md-start">
                   <a href="https://t.me/akseleretor_sibadi">
                     <telegram class="logo" />
                   </a>
@@ -75,7 +79,7 @@
                 </div>
               </div>
               <div class="col-md-6 order-first order-md-last">
-                <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3">
+                <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3 title-animation">
                   <img class="acc" style="max-width: 21vmax;" src="@/assets/logo/-0+500.png" alt="-0+500">
                 </div>
               </div>
@@ -86,23 +90,23 @@
     </swiper-slide>
     <swiper-slide class="d-flex">
       <div class="container-xxl">
-        <h2 class="titleNapr mt-2 mb-3">Направления акселератора</h2>
+        <h2 class="titleNapr mb-3">Направления акселератора</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
           <div class="col">
             <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
               <h3 class="napr-about" style="color: #6843fe; text-align: center;">Автонет</h3>
-              <p style="font-size: 1rem;">
+              <p class="about_napr">
                 Рынок "Автонет" активно развивается, 
                 становится ключевым для интеграции современных технологий в автомобильную индустрию.
-                Этот рынок направлен на обеспечение устойчивого роста национальной экономики, 
-                создание рабочих мест и обеспечение национальной безопасности.           
+                Этот рынок направлен на обеспечение роста национальной экономики и
+                создание рабочих мест           
               </p>
             </div>
           </div>
           <div class="col">
             <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
               <h3 class="napr-about" style="color: #6843fe; text-align: center;">Технет</h3>
-              <p style="font-size: 1rem;">
+              <p class="about_napr">
                 Рынок высокотехнологичных продуктов и услуг для цифровой экономики, 
                 способствует развитию инноваций, оптимизации производства
                 и повышению конкурентоспособности компаний.          
@@ -112,7 +116,11 @@
           <div class="col">
             <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
               <h3 class="napr-about" style="color: #6843fe; text-align: center;">Нейронет</h3>
-              <div style="font-size: 1rem;"></div>
+              <p class="about_napr">
+                Рынок высокотехнологичных продуктов и услуг для цифровой экономики, 
+                способствует развитию инноваций, оптимизации производства
+                и повышению конкурентоспособности компаний. 
+              </p>
             </div>
           </div>
         </div>
@@ -172,11 +180,11 @@
     </swiper-slide>
     <swiper-slide>
       <div class="container-xxl">
-        <h2 class="titleNapr mt-5 mb-3" style="text-align: center;">Программа акселератора</h2>
+        <h2 class="titleNapr mt-4 mb-3" style="text-align: center;">Программа акселератора</h2>
       </div>
     </swiper-slide>
     <swiper-slide class="d-flex">
-      <div class="container-xxl document p-4 mx-2">
+      <div class="container-xxl document p-4">
         <div class="row align-items-center px-3">
           <h2 class="titleNapr mt-2 mt-md-1 mb-md-4 mb-2">Приходи если у тебя...</h2>
           <div class="col-md-6 pt-md-0">
@@ -252,7 +260,7 @@
           <div class="ellipse top-25">
             <ell />
           </div>
-          <h2 class="titleNapr mb-5">А дальше...</h2>
+          <h2 class="titleNapr mb-5" style="z-index: 1;">А дальше...</h2>
           <div class="col-md-auto" style="z-index: 1;">
             <div class="row align-items-center">
               <div class="col-auto">
@@ -365,77 +373,215 @@
         </div>
       </div>
     </swiper-slide>
-    <swiper-slide class="d-flex">
-      <div class="container-xxl p-4">
-        <h2 class="titleNapr text-center mb-4 mb-md-5">Эксперты акселератора</h2>
-        <div class="row row-cols-2 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp01.jpeg" alt="Василий Быков">
+    <swiper-slide class="container-xxl p-4">
+      <h2 class="titleNapr text-center mb-3 mb-md-4">Эксперты акселератора</h2>
+      <swiper 
+        :slidesPerView="4"
+        :grid="{
+          rows: 2,
+        }"
+        :cssMode="true"
+        :spaceBetween="10"
+        :modules="modules"
+        :navigation="true"
+        :breakpoints="{
+          414: {
+            slidesPerView: 2,
+            spaceBetween: 10
+          },
+          768: {
+            slidesPerView: 4
+          },
+          1024: {
+            slidesPerView: 4
+          },
+        }"
+        class="mySwiper2"
+      >
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp01.jpeg" alt="Василий Быков">
+            <a href="https://leader-id.ru/users/638214" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Василий Быков</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp02.jpeg" alt="Андрей Визминтинов">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp02.jpeg" alt="Андрей Визминтинов">
+            <a href="https://leader-id.ru/users/1840204" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Андрей Визминтинов</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp03.jpg" alt="Петр Козлов">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp03.jpg" alt="Петр Козлов">
+            <a href="https://leader-id.ru/users/247802" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Петр Козлов</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp04.jpg" alt="Константин Курдюмов">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp04.jpg" alt="Константин Курдюмов">
+            <a href="https://leader-id.ru/users/1926100" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Константин Курдюмов</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp05.jpeg" alt="Виталий Мещеряков">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp05.jpeg" alt="Виталий Мещеряков">
+            <a href="https://leaderid.ru/users/462719" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Виталий Мещеряков</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp06.jpeg" alt="Сергей Мочалин">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp06.jpeg" alt="Сергей Мочалин">
+            <a href="https://leader-id.ru/users/1118150" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Сергей Мочалин</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp07.jpg" alt="Генналий Салимгареев">
-              <h3 class="exp mt-2 text-center">Генналий Салимгареев</h3>
-            </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp07.jpg" alt="Геннадий Салимгареев">
+            <a href="https://leader-id.ru/users/2041544" style="text-decoration-color:#6843fe;">
+              <h3 class="exp mt-2 text-center">Геннадий Салимгареев</h3>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp08.png" alt="Александр Сальников">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp08.png" alt="Александр Сальников">
+            <a href="https://leader-id.ru/users/4642713" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Александр Сальников</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp09.jpeg" alt="Анатолий Шастин">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp09.jpeg" alt="Анатолий Шастин">
+            <a href="https://leader-id.ru/users/513566" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Анатолий Шастин</h3>
-            </div>
+            </a>
           </div>
-          <div class="col">
-            <div class="">
-              <img class="exp" src="@/assets/experts/exp10.jpeg" alt="Анатолий Шонин">
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="@/assets/experts/exp10.jpeg" alt="Анатолий Шонин">
+            <a href="https://leader-id.ru/users/464151" style="text-decoration-color:#6843fe;">
               <h3 class="exp mt-2 text-center">Анатолий Шонин</h3>
-            </div>
+            </a>
+          </div>
+        </swiper-slide>
+      </swiper>
+    </swiper-slide>
+    <swiper-slide class="container-xxl p-4 mt-5">
+      <h2 class="titleNapr mb-3 mb-md-4">Команда акселератора</h2>
+      <div class="row row-cols-4 justify-content-center">
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team07.jpg" alt="Светлана Пестова">
+            <h3 class="exp mt-2 text-center">Светлана Пестова</h3>
+            <p class="text-center">Руководитель коллектива акселерационный программы</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team01.jpeg" alt="Алина Ладысь">
+            <h3 class="exp mt-2 text-center">Алина Ладысь</h3>
+            <p class="text-center">Администратор</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team03.jpeg" alt="Полина Харламова">
+            <h3 class="exp mt-2 text-center">Полина Харламова</h3>
+            <p class="text-center">Руководитель образовательной программы</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team04.jpg" alt="Сергей Игнатов">
+            <h3 class="exp mt-2 text-center">Сергей Игнатов</h3>
+            <p class="text-center">Менеджер по работе с командами-участниками</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team05.jpg" alt="Ольга Мищенко">
+            <h3 class="exp mt-2 text-center">Ольга Мищенко</h3>
+            <p class="text-center">PR-специалист</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team06.jpg" alt="Елизавета Канева">
+            <h3 class="exp mt-2 text-center">Елизавета Канева</h3>
+            <p class="text-center">SMM-специалист</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="@/assets/team/team08.jpeg" alt="Татьяна Захарова">
+            <h3 class="exp mt-2 text-center">Татьяна Захарова</h3>
+            <p class="text-center">Финансовый специалист(бухгалтер)</p>
+          </div>
+        </div>
+      </div>
+        
+    </swiper-slide>
+    <swiper-slide>
+      <div class="container-xxl p-4 mt-5">
+        <h2 class="titleNapr">Итоги программы «Акселератор -0+500»</h2>
+        <p class="text-center"></p>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="container-xxl p-4 document">
+        <h2 class="titleNapr px-2 mb-4">Наши партнеры</h2>
+        <div class="row row-cols-1 row-cols-md-5 gap-4 justify-content-center align-items-center">
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/awgas.png" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/pko.jpg" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/cifra.jpeg" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/datrade.png" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/dornii.jpg" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/insist.png" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/redium.png" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/smarthome.png" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/niitkd.png" alt="">
+          </div>
+          <div class="col-2">
+            <img class="logo part" src="@/assets/partners/skolkovo.png" alt="">
           </div>
         </div>
       </div>
     </swiper-slide>
-    <button class="btnUp" @click="$event => slideTo(1)">
-      <i class="bi-chevron-up"></i>
-    </button>
   </swiper>
+  <button v-if="showButton" class="btnUp" @click="$event => slideTo(1)">
+      <i class="bi bi-chevron-up"></i>
+  </button>
 </template>
 
 
@@ -450,11 +596,16 @@
   import check_double from '@/assets/someSVG/check_double.svg'
   import ell from '@/assets/someSVG/ellipse.svg'
   import chevron_double_up from '@/assets/someSVG/chevron_double_up.svg'
+  import lead from '@/assets/lead.svg'
 
   import { Swiper, SwiperSlide } from 'swiper/vue'
   import 'swiper/css';
-  import 'swiper/css/pagination';
-  import { Mousewheel, Pagination, Navigation } from 'swiper/modules';
+  import 'swiper/css/free-mode';
+  import 'swiper/css/navigation';
+  import 'swiper/css/grid';
+  import 'swiper/css/scrollbar';
+  import { Grid, Scrollbar, FreeMode, Mousewheel, Navigation } from 'swiper/modules';
+  import { ref } from 'vue';
 
   export default {
     components: {
@@ -465,6 +616,7 @@
       check,
       search,
       check_double,
+      lead,
       ell,
       chevron_double_up,
       Swiper,
@@ -472,19 +624,24 @@
     },
     setup() {
       let swiperRef = null;
+      const showButton = ref(false);
 
       const setSwiperRef = (swiper) => {
         swiperRef = swiper;
-        
       };
       const slideTo = (index) => {
-        swiperRef.slideTo(index - 1, 700);
+        swiperRef.slideTo(index - 1, 400);
+      };
+      const updateButtonVisibility = () => {
+        showButton.value = swiperRef.activeIndex !== 0;
       };
       return {
-        modules: [Mousewheel, Pagination, Navigation], 
+        modules: [Grid, Scrollbar, FreeMode, Mousewheel, Navigation], 
         swiperRef: null,
         setSwiperRef,
         slideTo,
+        showButton,
+        updateButtonVisibility
       };
     },
     
@@ -492,32 +649,65 @@
 </script>
 
 <style scoped>
+.mySwiper1 .swiper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-animation {
+  animation: anim 2s ease forwards;
+}
+.title-animation {
+  animation: anim 3s ease forwards;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.about_napr {
+  font-size: 1.3rem;
+  @media (max-width: 414px) {
+    font-size: 1.85cqmax;
+  }
+}
+p.about_napr {
+  margin: 0;
+}
+.about_wrapper {
+  background-color: #f9faff;
+  border-radius: 1.125rem;
+}
 .btnUp {
   cursor: pointer;
+  padding: 0;
+  margin: 0;
   width:2.5rem; 
   height: 2.5rem;
   position: fixed; 
   bottom: 1rem;
-  align-items: center;
-  justify-content: center; 
-  z-index: 999;
+  z-index: 1;
   background-color: #6843fe;
   text-decoration: none;
   border: none;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: white;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 2.2rem;
   outline: none;
   right: 1rem;
   border-radius: 50%;
   box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.6);
+  opacity: .7;
+  transition: opacity .3s ease-out;
+}
+.btnUp:hover {
+  opacity: 1;
 }
 .ellipse {
   position: absolute;
-  /* top: -21cqmin; */
   left: 7cqmax;
   transform: scale(.535);
   z-index: 0;
@@ -546,9 +736,13 @@
   font-weight: 700;
 }
 .exp {
-  font-size: 1.7cqmax;
+  font-size: 1.3cqmax;
   font-weight: 700;
   color: #6843fe;
+  @media (max-width: 896px) {
+    font-size: 2cqmax;
+  }
+  text-decoration-color: #6843fe;
 }
 .subsubtitle {
   font-size: 2cqmax;
@@ -561,19 +755,27 @@
   font-family: 'DM Sans', sans-serif;
   font-size: 2.5cqmin;
   font-weight: 500;
+  @media (max-width: 896px) {
+    font-size: 3cqmin;
+  }
 }
 .btn-danger {
   border-radius: .75rem;
   color: white;
   background-color: #FF2323;
   font-size: 3cqmin;
-  padding-inline: 2rem;
+  padding-inline: 3rem;
   padding-block: 1rem;
   font-weight: 700;
   font-family: 'DM Sans', sans-serif;
+  @media (max-width: 896px) {
+    font-size: 4cqmin;
+
+  }
 }
 .btn-danger:hover {
-  background-color: #c82333;
+  background-color: white;
+  color: #FF2323;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .title {
@@ -607,6 +809,9 @@ header {
 }
 
 img.exp {
-  border-radius: 20%;
+  border-radius: 1.125rem;
+}
+img.part {
+  border-radius: 0;
 }
 </style>
