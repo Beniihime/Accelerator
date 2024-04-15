@@ -180,7 +180,60 @@
     </swiper-slide>
     <swiper-slide>
       <div class="container-xxl">
-        <h2 class="titleNapr mt-4 mb-3" style="text-align: center;">Программа акселератора</h2>
+        <h2 class="titleNapr mb-3 text-center">Программа акселератора</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-2">
+          <div class="col">
+            <div class="document p-3">
+              <p class="date">
+                15 апреля - 15 июня
+              </p>
+              <p>
+                Вводный этап
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="document p-3">
+              <p class="date" style="color:#ff2323; font-weight: 700;">
+                27 апреля
+              </p>
+              <p>
+                Открытие акселератора
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="document p-3">
+              <p class="date">
+                16 июня - 15 сентября
+              </p>
+              <p>
+                Школа выступлений «Ораторский Олимп»
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="dociument p-3">
+              <p class="date">
+                16 сентября - 15 ноября
+              </p>
+              <p>
+                Развитие проектов
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="document p-3">
+              <p class="date" style="color:#ff2323; font-weight: 700;">
+                15 ноября
+              </p>
+              <p>
+                Итоговый демо-день акселерационной программы «-0+500. Сибирь»
+              </p>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
       </div>
     </swiper-slide>
     <swiper-slide class="d-flex">
@@ -222,8 +275,8 @@
         </div>
       </div>
     </swiper-slide>
-    <swiper-slide class="d-flex">
-      <div class="container-xxl document p-4 mx-2">
+    <swiper-slide class="d-flex p-2">
+      <div class="container-xxl document p-4">
         <div class="row align-items-center px-3">
           <h2 class="titleNapr mt-2 mt-md-1 mb-md-4 mb-2">Причины, чтобы подать заявку</h2>
           <div class="col-md-6 order-md-1 order-first">
@@ -298,8 +351,8 @@
         </div>
       </div>
     </swiper-slide>
-    <swiper-slide class="d-flex">
-      <div class="container-xxl document p-4 px-md-5 mx-2">
+    <swiper-slide class="d-flex p-2">
+      <div class="container-xxl document p-4 px-md-5">
         <div class="row align-items-center px-3 px-md-4 py-md-4">
           <h2 class="titleNapr text-center mb-3">Условия участия</h2>
           <div class="col-md-auto">
@@ -340,9 +393,9 @@
         </div>
       </div>
     </swiper-slide>
-    <swiper-slide class="d-flex">
+    <swiper-slide class="d-flex p-2">
       <div class="container-xxl p-4">
-        <div class="row px-3 px-md-4 py-md-4">
+        <div class="row">
           <h2 class="titleNapr text-center">Кто сопровождает проекты?</h2>
           <div class="row row-cols-1 row-cols-md-2 g-2">
             <div class="col">
@@ -482,97 +535,97 @@
     </swiper-slide>
     <swiper-slide class="container-xxl p-4 mt-5">
       <h2 class="titleNapr mb-3 mb-md-4">Команда акселератора</h2>
-      <div class="row row-cols-4 justify-content-center">
+      <div class="row row-cols-md-4 row-cols-2 justify-content-center">
         <div class="col">
           <div>
             <img src="@/assets/team/team07.jpg" alt="Светлана Пестова">
             <h3 class="exp mt-2 text-center">Светлана Пестова</h3>
-            <p class="text-center">Руководитель коллектива акселерационный программы</p>
+            <p class="role text-center">Руководитель коллектива акселерационный программы</p>
           </div>
         </div>
         <div class="col">
           <div>
             <img src="@/assets/team/team01.jpeg" alt="Алина Ладысь">
             <h3 class="exp mt-2 text-center">Алина Ладысь</h3>
-            <p class="text-center">Администратор</p>
+            <p class="role text-center">Администратор</p>
           </div>
         </div>
         <div class="col">
           <div>
             <img src="@/assets/team/team03.jpeg" alt="Полина Харламова">
             <h3 class="exp mt-2 text-center">Полина Харламова</h3>
-            <p class="text-center">Руководитель образовательной программы</p>
+            <p class="role text-center">Руководитель образовательной программы</p>
           </div>
         </div>
         <div class="col">
           <div>
             <img src="@/assets/team/team04.jpg" alt="Сергей Игнатов">
             <h3 class="exp mt-2 text-center">Сергей Игнатов</h3>
-            <p class="text-center">Менеджер по работе с командами-участниками</p>
+            <p class="role text-center">Менеджер по работе с командами-участниками</p>
           </div>
         </div>
         <div class="col">
           <div>
             <img src="@/assets/team/team05.jpg" alt="Ольга Мищенко">
             <h3 class="exp mt-2 text-center">Ольга Мищенко</h3>
-            <p class="text-center">PR-специалист</p>
+            <p class="role text-center">PR-специалист</p>
           </div>
         </div>
         <div class="col">
           <div>
             <img src="@/assets/team/team06.jpg" alt="Елизавета Канева">
             <h3 class="exp mt-2 text-center">Елизавета Канева</h3>
-            <p class="text-center">SMM-специалист</p>
+            <p class="role text-center">SMM-специалист</p>
           </div>
         </div>
         <div class="col">
           <div>
             <img src="@/assets/team/team08.jpeg" alt="Татьяна Захарова">
             <h3 class="exp mt-2 text-center">Татьяна Захарова</h3>
-            <p class="text-center">Финансовый специалист(бухгалтер)</p>
+            <p class="role text-center">Финансовый специалист(бухгалтер)</p>
           </div>
         </div>
       </div>
         
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide class="d-flex">
       <div class="container-xxl p-4 mt-5">
         <h2 class="titleNapr">Итоги программы «Акселератор -0+500»</h2>
         <p class="text-center"></p>
       </div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide class="p-3">
       <div class="container-xxl p-4 document">
         <h2 class="titleNapr px-2 mb-4">Наши партнеры</h2>
-        <div class="row row-cols-1 row-cols-md-5 gap-4 justify-content-center align-items-center">
-          <div class="col-2">
+        <div class="row row-cols-md-4 row-cols-3 g-4 justify-content-center align-items-center">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/awgas.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/pko.jpg" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/cifra.jpeg" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/datrade.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/dornii.jpg" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/insist.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/redium.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/smarthome.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/niitkd.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col">
             <img class="logo part" src="@/assets/partners/skolkovo.png" alt="">
           </div>
         </div>
@@ -596,7 +649,6 @@
   import check_double from '@/assets/someSVG/check_double.svg'
   import ell from '@/assets/someSVG/ellipse.svg'
   import chevron_double_up from '@/assets/someSVG/chevron_double_up.svg'
-  import lead from '@/assets/lead.svg'
 
   import { Swiper, SwiperSlide } from 'swiper/vue'
   import 'swiper/css';
@@ -616,7 +668,6 @@
       check,
       search,
       check_double,
-      lead,
       ell,
       chevron_double_up,
       Swiper,
@@ -649,10 +700,16 @@
 </script>
 
 <style scoped>
-.mySwiper1 .swiper-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.date {
+  font-family: 'DM Sans', sans-serif;
+  color:#6843fe;
+  font-size: 1.5cqmax;
+  @media (max-width: 896px) {
+    font-size: 2.5cqmax;
+  }
+}
+.role {
+  font-size: 1.4cqmax;
 }
 .logo-animation {
   animation: anim 2s ease forwards;
@@ -763,7 +820,7 @@ p.about_napr {
   border-radius: .75rem;
   color: white;
   background-color: #FF2323;
-  font-size: 3cqmin;
+  font-size: 2.8cqmin;
   padding-inline: 3rem;
   padding-block: 1rem;
   font-weight: 700;
