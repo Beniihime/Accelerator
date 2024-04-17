@@ -273,7 +273,7 @@
         <h2 class="titleNapr py-1 py-md-2">Причины, чтобы подать заявку</h2>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-6 order-md-1 order-first mb-3">
-            <img class="img-fluid" src="@/assets/photos/photo2.jpg" alt="">
+            <img class="img-fluid" src="@/assets/photos/final2.jpg" alt="">
           </div>
           <div class="col-md-6 pt-md-0 order-md-2">
             <div class="row align-items-center">
