@@ -113,7 +113,7 @@
     <div class="py-4 py-md-5 my-3">
       <div class="document p-3">
         <h2 class="titleNapr text-center px-3 py-2 py-md-3">Что вас ждет?</h2>
-        <div class="row align-items-center document">
+        <div class="row align-items-center">
           <div class="col-md-6 pt-md-0 mb-3">
             <img class="img-fluid rounded-4" src="@/assets/photos/photo1.jpg" alt="">
           </div>
@@ -663,16 +663,16 @@
   </div>
   <footer class="d-flex justify-content-center align-items-center py-4" @contextmenu.prevent>
     <div class="container-xxl py-4 py-md-5 my-3">
-      <p class="text-center slogan">
+      <p class="text-center slogan" data-aos="fade-right">
         Разрабатываем будущее вместе!
       </p>
-      <div class="text-center py-4">
+      <div class="text-center py-4" data-aos="fade-left">
         <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
       </div>
-      <p class="subtitle text-center">
+      <p class="subtitle text-center" data-aos="fade-right">
         c 15 апреля по 15 ноября
       </p>
-      <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4" data-aos="fade">
+      <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4" data-aos="fade-up">
         <a href="https://t.me/akseleretor_sibadi">
           <telegram class="logo" />
         </a>
@@ -774,7 +774,7 @@
 .about_napr {
   font-size: 1.3rem;
   @media (max-width: 896px) {
-    font-size: 2cqmax;
+    font-size: 1.6cqmax;
   }
 }
 p.about_napr {
@@ -839,12 +839,16 @@ p.about_napr {
 .document {
   background-color: #fff;
   border-radius: 1.125rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .ab {
-  font-size: 2.9cqmin;
+  font-size: 3cqmin;
 }
 .final {
   font-size: 2.5cqmin;
+  @media (max-width: 768px) {
+    font-size: 3cqmin;
+  }
 }
 .titleNapr {
   color: #FF2323;
@@ -890,11 +894,6 @@ p.about_napr {
   }
   transition: all .5s;
 }
-/* .btn-danger:hover {
-  background-color: white;
-  color: #FF2323;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-} */
 .btn-danger:hover {
   transform: scale(1.05);
   background-color: #6843fe;
@@ -913,8 +912,10 @@ p.about_napr {
 .slogan {
   font-size: 1.85cqmax;
   font-family: 'DM Sans', sans-serif;
-  /* font-weight: 700; */
   color: white;
+  @media (max-width: 768px) {
+    font-size: 2.5cqmax;
+  }
 }
 .napr {
   font-family: 'DM Sans', sans-serif ;
