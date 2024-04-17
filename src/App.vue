@@ -62,6 +62,7 @@
         </div>
         <div class="col-md-6 order-first order-md-last">
           <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3" data-aos="fade-left">
+            <!-- TODO: Change the logo after the release-->
             <img class="acc" style="max-width: 21vmax;" src="@/assets/logo/-0+500.png" alt="-0+500">
           </div>
         </div>
