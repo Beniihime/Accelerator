@@ -1,19 +1,19 @@
 <template>
-  <header class="py-3 py-md-4 d-flex align-items-center" style="min-height: 100%;" @contextmenu.prevent>
+  <header class="d-flex align-items-center" style="min-height: 100vh;" @contextmenu.prevent>
     <div class="container-xxl">
       <div class="d-flex align-items-center justify-content-center fs-5 justify-content-md-start gap-4 gap-md-5 mb-4 mb-md-6">
-        <a href="https://sibadi.org/">
-          <img class="logo" data-aos="zoom-in" style="max-height: 5rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
+        <a href="https://sibadi.org/" data-aos="zoom-in">
+          <img class="logo" style="max-height: 5rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
         </a>
-        <a href="https://univertechpred.ru/">
-          <img class="logo" data-aos="zoom-in" style="max-height: 5rem;" src="@/assets/logo/PUTP.png" alt="putp">
+        <a href="https://univertechpred.ru/" data-aos="zoom-in">
+          <img class="logo" style="max-height: 5rem;" src="@/assets/logo/PUTP.png" alt="putp">
         </a>
-        <a href="https://vk.com/point.omsk">
-          <img class="logo" data-aos="zoom-in" style="max-height: 4.1rem;" src="@/assets/logo/dot.png" alt="dot">
+        <a href="https://vk.com/point.omsk" data-aos="zoom-in">
+          <img class="logo" style="max-height: 4.1rem;" src="@/assets/logo/dot.png" alt="dot">
         </a>
       </div>
-      <div class="row align-items-center mb-7">
-        <div class="col-md-6 pt-md-0"  data-aos="flip-up">
+      <div class="row align-items-center">
+        <div class="col-md-6 pt-md-0" data-aos="fade-right">
           <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center text-md-start title">
             Акселератор
             <br>
@@ -24,11 +24,11 @@
             <br>
             <span class="secondLine">-0+500.Сибирь</span>
           </div>
-          <div class="d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block fs-cqw text-center text-md-start slogan">
-            Слоган
+          <div class="d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block fs-cqw text-center pt-4 pb-3 text-md-start slogan">
+            Разрабатываем будущее вместе!
           </div>
-          <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center text-md-start slogan">
-            Слоган
+          <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center pt-3 pb-2 text-md-start slogan">
+            Разрабатываем будущее вместе!
           </div>
           <div class="d-flex gap-3 gap-md-4 tit-1 justify-content-center d-inline d-md-none">
             <p class="napr">Автонет</p>
@@ -61,14 +61,14 @@
           </div>
         </div>
         <div class="col-md-6 order-first order-md-last">
-          <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3 title-animation" data-aos="zoom-in-up">
+          <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3" data-aos="fade-left">
             <img class="acc" style="max-width: 21vmax;" src="@/assets/logo/-0+500.png" alt="-0+500">
           </div>
         </div>
       </div>
     </div>
   </header>
-  <div class="container-xxl" style="overflow: hidden;">
+  <div class="container-xxl pt-3 pt-md-5" style="overflow: hidden;">
     <div class="py-3 py-md-5 my-3">
       <h2 class="titleNapr mb-3 document p-3">Направления акселератора</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
@@ -76,9 +76,11 @@
           <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
             <h3 class="napr-about" style="color: #6843fe; text-align: center;">Автонет</h3>
             <p class="about_napr">
-              Автонет - это рынок НТИ по развитию услуг, систем и современных 
-              транспортных средств на основе интеллектуальных платформ, сетей и инфраструктуры в логистике людей и вещей.
-              Эффективный инструмент на основе государственно-частного партнерства по поиску, отбору и выращиванию перспективных проектов в успешные высокотехнологические бизнесы мирового масштаба с целью обеспечения устойчивого роста национального ВВП, создания высококвалифицированных рабочих мест, обеспечения суверенитета в критически важных технологиях, укрепление национальной безопасности.         
+              Проекты направлены на развитие современных транспортных средств и услуг, основанных 
+              на интеллектуальных технологиях в логистике людей и вещей, а также на получение новых 
+              технологических решений. Приоритет уделяется телематическим транспортным системам, 
+              интеллектуальной городской мобильности и транспортно-логистическим услугам в рамках 
+              дорожной карты Национальной технологической инициативы "Автонет"
             </p>
           </div>
         </div>
@@ -86,9 +88,12 @@
           <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
             <h3 class="napr-about text-center" style="color: #6843fe;">Технет</h3>
             <p class="about_napr">
-              Рынок высокотехнологичных продуктов и услуг для цифровой экономики, 
-              способствует развитию инноваций, оптимизации производства
-              и повышению конкурентоспособности компаний.          
+              Проекты направлены на разработку и применение новейших технологий, таких как 
+              цифровое проектирование и моделирование, аддитивные технологии, робототехника и 
+              системы Интернета вещей. Основное внимание уделяется цифровому проектированию и 
+              моделированию, созданию инновационных материалов, аддитивным технологиям, 
+              промышленной сенсорике и обработке больших данных в соответствии с дорожной картой 
+              Национальной технологической инициативы "Технет"      
             </p>
           </div>
         </div>
@@ -96,9 +101,9 @@
           <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
             <h3 class="napr-about" style="color: #6843fe; text-align: center;">Нейронет</h3>
             <p class="about_napr">
-              Рынок высокотехнологичных продуктов и услуг для цифровой экономики, 
-              способствует развитию инноваций, оптимизации производства
-              и повышению конкурентоспособности компаний. 
+              Проекты в сфере виртуальной и дополненной реальности в образовании, игр с 
+              нейрогаджетами и развития технологий нейромаркетинга. Также акцентируется внимание на 
+              развитии глубокого машинного обучения, персональных электронных ассистентов и нейроразвлечений
             </p>
           </div>
         </div>
@@ -106,12 +111,12 @@
     </div>
     <div class="py-4 py-md-5 my-3">
       <div class="document p-3">
+        <h2 class="titleNapr text-center px-3 py-2 py-md-3">Что вас ждет?</h2>
         <div class="row align-items-center document">
           <div class="col-md-6 pt-md-0 mb-3">
             <img class="img-fluid rounded-4" src="@/assets/photos/photo1.jpg" alt="">
           </div>
           <div class="col-md-6 order-first order-md-last">
-            <h2 class="titleNapr text-center order-0 p-3">Что вас ждет?</h2>
             <div class="row">
               <div class="col-auto">
                 <chevron_double />
@@ -157,11 +162,11 @@
       </div>
     </div>
     <div class="py-3 py-md-5 my-3">
-      <h2 class="titleNapr text-center document p-3">Программа акселератора</h2>
-      <div class="row justify-content-center align-items-center px-2">
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2 g-md-3 px-0">
-          <div class="col">
-            <div class="document p-3 h-100">
+      <h2 class="titleNapr text-center document p-3 mb-4">Программа акселератора</h2>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2 g-md-3">
+        <div class="col">
+          <a href="" style="text-decoration: none; color:black;">
+            <div class="document p-3 h-100 logo">
               <p class="date">
                 15 апреля - 15 июня
               </p>
@@ -169,213 +174,223 @@
                 Вводный этап
               </p>
             </div>
+          </a>
+        </div>
+        <div class="col">
+          <div class="document p-3 h-100 logo">
+            <p class="date">
+              27 апреля
+            </p>
+            <p class="prog">
+              Открытие акселератора
+            </p>
           </div>
-          <div class="col">
-            <div class="document p-3 h-100">
-              <p class="date">
-                27 апреля
-              </p>
-              <p class="prog">
-                Открытие акселератора
-              </p>
+        </div>
+        <div class="col">
+          <div class="document p-3 h-100 logo">
+            <p class="date">
+              16 июня - 15 сентября
+            </p>
+            <p class="prog">
+              Школа выступлений «Ораторский Олимп»
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="document p-3 h-100 logo">
+            <p class="date">
+              16 сентября - 15 ноября
+            </p>
+            <p class="prog">
+              Развитие проектов
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="document p-3 h-100 logo">
+            <p class="date">
+              15 ноября
+            </p>
+            <p class="prog">
+              Демо-день
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="document p-3 h-100 logo">
+            <p class="date">
+              15 ноября 2024 - 15 ноября 2025
+            </p>
+            <p class="prog">
+              Постакселерационная поддержка
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-3 py-md-5 my-3">
+      <div class="document py-3 px-4 px-md-5 py-md-4">
+        <h2 class="titleNapr py-1 py-md-2">Приходи если у тебя...</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-auto">
+                <check />
+              </div>
+              <div class="col">
+                <p class="ab">Есть идея проекта, есть команда, нужна помощь в развитии и инвестиции</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <check />
+              </div>
+              <div class="col">
+                <p class="ab">Есть идея, но нет команды, не знаешь с чего начать</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <check />
+              </div>
+              <div class="col">
+                <p class="ab">Нет идеи, но очень хочешь попробовать</p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2 mb-md-4">
+              <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
             </div>
           </div>
-          <div class="col">
-            <div class="document p-3">
-              <p class="date">
-                16 июня - 15 сентября
-              </p>
-              <p class="prog">
-                Школа выступлений «Ораторский Олимп»
-              </p>
+          <div class="col-md-6 order-first order-md-last mb-3">
+            <img class="img-fluid" src="@/assets/photos/winner.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-3 py-md-5 my-3">
+      <div class="document py-3 px-4 px-md-5 py-md-4">
+        <h2 class="titleNapr py-1 py-md-2">Причины, чтобы подать заявку</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 order-md-1 order-first mb-3">
+            <img class="img-fluid" src="@/assets/photos/photo2.jpg" alt="">
+          </div>
+          <div class="col-md-6 pt-md-0 order-md-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <search />
+              </div>
+              <div class="col">
+                <span class="ab">Подарки от партнёров</span>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <search />
+              </div>
+              <div class="col mt-3">
+                <p class="ab mb-0">Сертификат о прохождении акселерационной программы</p>
+              </div>
+            </div>
+            <div class="col-md-6 my-4">
+              <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
             </div>
           </div>
-          <div class="col">
-            <div class="document p-3 h-100">
-              <p class="date">
-                16 сентября - 15 ноября
-              </p>
-              <p class="prog">
-                Развитие проектов
-              </p>
-            </div>
+          <p class="order-md-3 subsubtitle mt-md-4">
+            Твой проект будут поддерживать опытные наставники, трекеры,  и эксперты, а индустриальные партнеры подскажут в каком направлении стоит развиваться!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="py-3 py-md-5 my-3">
+      <div class="document py-3 px-4 px-md-5 py-md-4">
+        <h2 class="titleNapr py-1 py-md-2" style="z-index: 1;">А дальше...</h2>
+        <div class="row justify-content-center align-items-center ell">
+          <div class="ellipse">
+            <ell />
           </div>
-          <div class="col">
-            <div class="document p-3 h-100">
-              <p class="date">
-                15 ноября
-              </p>
-              <p class="prog">
-                Демо-день
-              </p>
+          <div class="col-md-auto" style="z-index: 1;">
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <check_double />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Защита ВКР в формате «Диплом как стартап»</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="document p-3">
-              <p class="date">
-                15 ноября 2024 - 15 ноября 2025
-              </p>
-              <p class="prog">
-                Постакселерационная поддержка
-              </p>
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <check_double />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Сопровождение проекта от инвесторов и поддержка  в дальнейшем развитии проекта</p>
+              </div>
+            </div>
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <check_double />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Возможность получения гранта в размере 1 000 000 рублей <br> от Фонда Содействия Инновациям</p>
+              </div>
+            </div>
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <check_double class="last"/>
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Зачёт автоматом по дисциплине «Основы проектной деятельности»</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 px-3 my-3">
-      <div class="row justify-content-center align-items-center py-4 py-md-3 px-3 document">
-        <h2 class="titleNapr mt-2 mt-md-1 mb-md-4 mb-2">Приходи если у тебя...</h2>
-        <div class="col-md-6 pt-md-0">
-          <div class="row">
-            <div class="col-auto">
-              <check />
-            </div>
-            <div class="col">
-              <p class="ab">Есть идея проекта, есть команда, нужна помощь в развитии и инвестиции</p>
-            </div>
+    <div class="py-3 py-md-5 my-3">
+      <div class="document py-3 px-4 px-md-5 py-md-4">
+        <h2 class="titleNapr text-center py-1 py-md-2">Условия участия</h2>
+        <div class="row justify-content-center align-items-center ell">
+          <div class="line_curved">
+            <line_curved />
           </div>
-          <div class="row">
-            <div class="col-auto">
-              <check />
+          <div class="col-md-auto" style="z-index: 1;">
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <chevron_double_up />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Соответствие проекта представленным направлениям</p>
+              </div>
             </div>
-            <div class="col">
-              <p class="ab">Есть идея, но нет команды, не знаешь с чего начать</p>
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <chevron_double_up />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Студент, магистрант, аспирант, научный сотрудник 
+                  или преподаватель из любого вуза</p>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-auto">
-              <check />
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <chevron_double_up />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Возраст от 18 до 35 лет</p>
+              </div>
             </div>
-            <div class="col">
-              <p class="ab">Нет идеи, но очень хочешь попробовать</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-2 mb-md-4">
-            <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
-          </div>
-        </div>
-        <div class="col-md-6 order-first order-md-last mb-3">
-          <img class="img-fluid" src="@/assets/photos/winner.jpg" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="py-3 py-md-5 px-3 my-3">
-      <div class="row justify-content-center align-items-center document py-4 py-md-3 px-3">
-        <h2 class="titleNapr mt-2 mt-md-1 mb-md-4 mb-2">Причины, чтобы подать заявку</h2>
-        <div class="col-md-6 order-md-1 order-first">
-          <img class="img-fluid" src="@/assets/photos/photo2.jpg" alt="">
-        </div>
-        <div class="col-md-6 pt-md-0 order-md-2">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <search />
-            </div>
-            <div class="col">
-              <span class="ab">Подарки от партнёров</span>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <search />
-            </div>
-            <div class="col mt-3">
-              <p class="ab mb-0">Сертификат о прохождении акселерационной программы</p>
-            </div>
-          </div>
-          <div class="col-md-6 p-0 my-4">
-            <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
-          </div>
-        </div>
-        <p class="order-md-3 subsubtitle mt-md-4">Твой проект будут поддерживать опытные наставники, трекеры,  и эксперты, а индустриальные партнеры подскажут в каком направлении стоит развиваться!</p>
-      </div>
-    </div>
-    <div class="py-3 py-md-5 px-3 my-3">
-      <div class="row justify-content-center align-items-center document p-3 ell">
-        <div class="ellipse top-25">
-          <ell />
-        </div>
-        <h2 class="titleNapr py-2" style="z-index: 1;">А дальше...</h2>
-        <div class="col-md-auto" style="z-index: 1;">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <check_double />
-            </div>
-            <div class="col">
-              <p class="ab mb-0">Защита ВКР в формате «Диплом как стартап»</p>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <check_double />
-            </div>
-            <div class="col">
-              <p class="ab">Сопровождение проекта от инвесторов и поддержка  в дальнейшем развитии проекта</p>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <check_double />
-            </div>
-            <div class="col">
-              <p class="ab">Возможность получения гранта в размере 1 000 000 рублей <br> от Фонда Содействия Инновациям</p>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <check_double class="last"/>
-            </div>
-            <div class="col">
-              <p class="ab mb-0">Зачёт автоматом по дисциплине «Основы проектной деятельности»</p>
+            <div class="row align-items-center py-2">
+              <div class="col-auto">
+                <chevron_double_up />
+              </div>
+              <div class="col">
+                <p class="ab mb-0">Стадия готовности проекта – идея или готовый прототип</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 px-3 my-3">
-      <div class="row justify-content-center align-items-center document p-3 ell">
-        <div class="line_curved top-25">
-          <line_curved />
-        </div>
-        <h2 class="titleNapr text-center py-2">Условия участия</h2>
-        <div class="col-md-auto" style="z-index: 1;">
-          <div class="row align-items-baseline">
-            <div class="col-auto">
-              <chevron_double_up />
-            </div>
-            <div class="col">
-              <p class="ab">Соответствие проекта представленным направлениям</p>
-            </div>
-          </div>
-          <div class="row align-items-baseline">
-            <div class="col-auto">
-              <chevron_double_up />
-            </div>
-            <div class="col">
-              <p class="ab">Студент, магистрант, аспирант, научный сотрудник 
-                или преподаватель из любого вуза</p>
-            </div>
-          </div>
-          <div class="row align-items-baseline">
-            <div class="col-auto">
-              <chevron_double_up />
-            </div>
-            <div class="col">
-              <p class="ab">Возраст от 18 до 35 лет</p>
-            </div>
-          </div>
-          <div class="row align-items-baseline">
-            <div class="col-auto">
-              <chevron_double_up />
-            </div>
-            <div class="col">
-              <p class="ab mb-0">Стадия готовности проекта – идея или готовый прототип</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="py-3 py-md-5 px-1 my-3">
+    <div class="py-3 py-md-5 my-3">
       <h2 class="titleNapr text-center document p-3">Кто сопровождает проекты?</h2>
       <div class="row justify-content-center align-items-center px-2">
         <div class="row row-cols-1 row-cols-md-2 g-2 px-0">
@@ -406,10 +421,10 @@
         </div>
       </div>
     </div>
-    <div class="py-4 my-3">
-      <div class="document p-3">
+    <div class="py-4 py-md-5 my-3">
+      <div class="document py-3 px-4 px-md-5 py-md-4">
         <h2 class="titleNapr text-center mb-3 mb-md-4 px-3 py-2">Эксперты акселератора</h2>
-        <div class="row row-cols-md-4 row-cols-2 justify-content-center document">
+        <div class="row row-cols-md-4 row-cols-2 justify-content-center">
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp01.jpeg" alt="Василий Быков">
@@ -493,7 +508,7 @@
         </div>
       </div>
     </div>
-    <div class="py-4 px-1 my-3">
+    <div class="py-4 py-md-5 my-3">
       <div class="document p-3">
         <h2 class="titleNapr py-2 px-3">Наши партнеры</h2>
         <div class="row row-cols-md-4 row-cols-2 g-6 justify-content-center align-items-center">
@@ -530,7 +545,7 @@
         </div>
       </div>
     </div>
-    <div class="py-4 px-1 my-3">
+    <div class="py-4 py-md-5 my-3">
       <div class="document p-3">
         <h2 class="titleNapr mb-3 mb-md-4 px-3 py-2">Наша команда</h2>
         <div class="row row-cols-md-4 row-cols-2 justify-content-center px-3">
@@ -544,7 +559,6 @@
                   pestova_sv@mail.ru
                 </a>
               </p>
-              
             </div>
           </div>
           <div class="col">
@@ -597,27 +611,83 @@
               <p class="role text-center">SMM-специалист</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-4 py-md-5 my-3">
+      <div class="document px-4 py-3">
+        <h2 class="titleNapr mb-3 mb-md-4 px-3 py-2 text-center">Итоги программы «Акселератор -0+500»</h2>
+        <p class="text-center final px-3">
+          15 декабря в «Точке кипения - Омск» состоялся финал акселератора «-0 +500». В финал вышли 14 команд, отобранных экспертами, были определены три победителя.
+        </p>
+        <a href="https://vk.com/point.omsk?w=wall-195453782_2596">
+          <p class="text-center final px-3">
+            Итоги работы
+          </p>
+        </a>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-2">
           <div class="col">
             <div>
-              <img class="img-fluid w-100" src="@/assets/team/team08.jpeg" alt="Татьяна Захарова">
-              <h3 class="exp mt-2 text-center">Татьяна Захарова</h3>
-              <p class="role text-center">Финансовый специалист (бухгалтер)</p>
+              <img class="img-fluid" src="@/assets/photos/final1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img class="img-fluid" src="@/assets/photos/final2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img class="img-fluid" src="@/assets/photos/winner.jpg" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img class="img-fluid" src="@/assets/photos/final3.jpg" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img class="img-fluid" src="@/assets/photos/final4.jpg" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img class="img-fluid" src="@/assets/photos/final5.jpg" alt="">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-4 px-3 my-3">
-      <h2 class="titleNapr">Итоги программы «Акселератор -0+500»</h2>
-      <p class="text-center"></p>
-    </div>
   </div>
+  <footer class="d-flex justify-content-center align-items-center py-4" @contextmenu.prevent>
+    <div class="container-xxl py-4 py-md-5 my-3">
+      <p class="text-center slogan">
+        Разрабатываем будущее вместе!
+      </p>
+      <div class="text-center py-4">
+        <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
+      </div>
+      <p class="subtitle text-center">
+        c 15 апреля по 15 ноября
+      </p>
+      <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4" data-aos="fade">
+        <a href="https://t.me/akseleretor_sibadi">
+          <telegram class="logo" />
+        </a>
+        <a href="https://vk.com/club225258283">
+          <vk class="logo"/>
+        </a>
+        <a href="mailto:projectoffice@sibadi.org">
+          <email class="logo"/>
+        </a>
+      </div>
+    </div>
+  </footer>
   <button class="btnUp" @click="scrollToTop" v-show="isVisible">
       <i class="bi bi-chevron-up"></i>
   </button>
 </template>
-
-
 
 <script>
   // svg imports
@@ -739,19 +809,21 @@ p.about_napr {
 }
 .line_curved {
   position: absolute;
-  left: -1cqmax;
-  top: -450px;
+  left: -2cqmax;
+  top: -510px;
   transform: scale(.535);
   z-index: 0;
 }
 .ellipse {
   position: absolute;
+  top: -27cqmax;
   left: 7cqmax;
   transform: scale(.535);
   z-index: 0;
 }
 @media (max-width: 896px){
   .ellipse {
+    top: -530px;
     left: -90px;
     transform: scale(.297);
   }
@@ -768,7 +840,10 @@ p.about_napr {
   border-radius: 1.125rem;
 }
 .ab {
-  font-size: 3cqmin;
+  font-size: 2.9cqmin;
+}
+.final {
+  font-size: 2.5cqmin;
 }
 .titleNapr {
   color: #FF2323;
@@ -804,7 +879,7 @@ p.about_napr {
   border-radius: .75rem;
   color: white;
   background-color: #FF2323;
-  font-size: 2.7cqmin;
+  font-size: 2.54cqmin;
   padding-inline: 3rem;
   padding-block: 1rem;
   font-weight: 700;
@@ -812,12 +887,19 @@ p.about_napr {
   @media (max-width: 896px) {
     font-size: 4cqmin;
   }
+  transition: all .5s;
 }
-.btn-danger:hover {
+/* .btn-danger:hover {
   background-color: white;
   color: #FF2323;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+.btn-danger:hover {
+  transform: scale(1.05);
+  background-color: #6843fe;
+  border-color: #6843fe;
 }
+
 .title {
   font-size: 5cqmax;
   color: white;
@@ -828,8 +910,9 @@ p.about_napr {
   color: #FF2323;
 }
 .slogan {
-  font-size: 3.78cqmax;
-  font-weight: 700;
+  font-size: 1.85cqmax;
+  font-family: 'DM Sans', sans-serif;
+  /* font-weight: 700; */
   color: white;
 }
 .napr {
@@ -847,8 +930,30 @@ p.about_napr {
 header {
   background: linear-gradient(rgba(17, 15, 44, .6), rgba(17, 15, 44, .8)), url(
     @/assets/background.jpg) center;
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
+}
+@media screen and (max-width: 768px) {
+  header {
+    background-attachment: scroll;
+  }
+}
+
+footer {
+  background: linear-gradient(rgba(17, 15, 44, .6), rgba(17, 15, 44, .8)), url(
+    @/assets/background.jpg) center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-attachment: scroll;
+  }
 }
 
 img.exp {

@@ -6,25 +6,13 @@
     height: 100%;
     -webkit-user-select: none;
     user-select: none;
+    scroll-behavior: smooth;
   }
   html,
   body {
     position: relative;
     height: 100%;
     background-color: #b6d7e0;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 
 :root {
@@ -73,8 +61,18 @@
 img:not(.acc) {
   border-radius: 1.125rem;
 }
-.swiper-wrapper {
-  -webkit-transition-timing-function:linear!important; 
-  -o-transition-timing-function:linear!important;
-  transition-timing-function:linear!important; 
+
+body::-webkit-scrollbar {
+  width: 8px;               /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+  background: #6843fe;        /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FF2323;    /* цвет бегунка */
+  border-radius: 20px;       /* округлось бегунка */
+  /* border: 1px solid rgba(0, 0, 0, .5); */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
 }
