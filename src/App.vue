@@ -25,10 +25,10 @@
             <span class="secondLine">-0+500.Сибирь</span>
           </div>
           <div class="d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block fs-cqw text-center pt-4 pb-3 text-md-start slogan">
-            Разрабатываем будущее вместе!
+            Создаём будущее вместе!
           </div>
           <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center pt-3 pb-2 text-md-start slogan">
-            Разрабатываем будущее вместе!
+            Создаём будущее вместе!
           </div>
           <div class="d-flex gap-3 gap-md-4 tit-1 justify-content-center d-inline d-md-none">
             <p class="napr">Автонет</p>
@@ -664,7 +664,7 @@
   <footer class="d-flex justify-content-center align-items-center py-4" @contextmenu.prevent>
     <div class="container-xxl py-4 py-md-5 my-3">
       <p class="text-center slogan" data-aos="fade-right">
-        Разрабатываем будущее вместе!
+        Создаём будущее вместе!
       </p>
       <div class="text-center py-4" data-aos="fade-left">
         <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
