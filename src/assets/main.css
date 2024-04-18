@@ -10,18 +10,16 @@
   }
   html,
   body {
-    position: relative;
     height: 100%;
-    background-color: #b6d7e0;
+    width: 100%;
+    background-color: #000;
+    overflow-x: hidden;
   }
 
 :root {
     --swiper-theme-color: #FF2323 !important;
     --swiper-pagination-bullet-inactive-color: #6843fe;
     --swiper-pagination-bullet-inactive-opacity: 0.6;
-}
-.swiper-button-prev, .swiper-button-next {
-  top: var(--swiper-navigation-top-offset, 44%) !important;
 }
 .logo_bl {
   path.teleg {
@@ -63,16 +61,15 @@ img:not(.acc) {
 }
 
 body::-webkit-scrollbar {
-  width: 8px;               /* ширина всей полосы прокрутки */
+  width: 6px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #6843fe;        /* цвет зоны отслеживания */
+  background: #6843fe;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #FF2323;    /* цвет бегунка */
-  border-radius: 20px;       /* округлось бегунка */
-  /* border: 1px solid rgba(0, 0, 0, .5); */
+  background-color: #FF2323;
+  border-radius: 20px;   
   box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
 }

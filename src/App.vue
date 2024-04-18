@@ -45,7 +45,7 @@
               <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
             </div>
             <div class="col-md-6 mt-3 mt-md-0 text-center subtitle">
-              c 15 апреля по 15 ноября
+              c 15 апреля по 15 ноября 2024 года
             </div>
           </div>
           <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center justify-content-md-start" data-aos="slide-up">
@@ -69,53 +69,72 @@
       </div>
     </div>
   </header>
-  <div class="container-xxl pt-3 pt-md-5" style="overflow: hidden;">
-    <div class="py-3 py-md-5 my-3">
-      <h2 class="titleNapr mb-3 document p-3">Направления акселератора</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
-        <div class="col">
-          <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
-            <h3 class="napr-about" style="color: #6843fe; text-align: center;">Автонет</h3>
-            <p class="about_napr">
-              Проекты направлены на развитие современных транспортных средств и услуг, основанных 
-              на интеллектуальных технологиях в логистике людей и вещей, а также на получение новых 
-              технологических решений. Приоритет уделяется телематическим транспортным системам, 
-              интеллектуальной городской мобильности и транспортно-логистическим услугам в рамках 
-              дорожной карты Национальной технологической инициативы "Автонет"
-            </p>
+  <div style="overflow: hidden; ">
+    <div class="container-fluid" style="background-color: #0c0625; background-image: url(/src/assets/auto.png); background-size: auto;">
+      <div class="container-xxl py-3 py-md-5">
+        <h1 class="display-3 my-3 mb-5 text-center text-light">Направления акселератора</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
+          <div class="col" style="background-color: #0c0625;">
+            <div class="p-4 h-100 card">
+              <h3 class="napr-about text-center mb-2 fs-3" style="color: #a28df7;">Автонет</h3>
+              <p class="about_napr">
+                Проекты развивают интеллектуальные технологии в логистике и 
+                городскую мобильность для получения новых технологий. Уделяют внимание
+                телематическим системам и транспортно-логистическим услугам в рамках «Автонет»
+              </p>
+              <div class="mt-2">
+                <a class="exx" href="https://autonet-nti.ru/">
+                  Подробнее...
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
-            <h3 class="napr-about text-center" style="color: #6843fe;">Технет</h3>
-            <p class="about_napr">
-              Проекты направлены на разработку и применение новейших технологий, таких как 
-              цифровое проектирование и моделирование, аддитивные технологии, робототехника и 
-              системы Интернета вещей. Основное внимание уделяется цифровому проектированию и 
-              моделированию, созданию инновационных материалов, аддитивным технологиям, 
-              промышленной сенсорике и обработке больших данных в соответствии с дорожной картой 
-              Национальной технологической инициативы "Технет"      
-            </p>
+          <div class="col" style="background-color: #0c0625;">
+            <div class="p-4 h-100 card">
+              <h3 class="napr-about text-center mb-2 fs-3" style="color: #a28df7;">Технет</h3>
+              <p class="about_napr">
+                Проекты разрабатывают и применяют продвинутые технологии, 
+                включая цифровое проектирование и моделирование, 3D-печать, 
+                роботов и интернет-вещи. Главный фокус на цифровом проектировании, новых материалах, 
+                3D-печати, сенсорах и Big Data в рамках "Технет"
+              </p>
+              <div class="mt-2">
+                <a class="exx" href="https://technet-nti.ru/">
+                  Подробнее...
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="p-4 h-100" style="background-color: #fff; border-radius: 1rem;">
-            <h3 class="napr-about" style="color: #6843fe; text-align: center;">Нейронет</h3>
-            <p class="about_napr">
-              Проекты в сфере виртуальной и дополненной реальности в образовании, игр с 
-              нейрогаджетами и развития технологий нейромаркетинга. Также акцентируется внимание на 
-              развитии глубокого машинного обучения, персональных электронных ассистентов и нейроразвлечений
-            </p>
+          <div class="col" style="background-color: #0c0625;">
+            <div class="p-4 h-100 card">
+              <h3 class="napr-about text-center mb-2 fs-3" style="color: #a28df7;">Нейронет</h3>
+              <p class="about_napr">
+                Проекты в сфере виртуальной и дополненной реальности в образовании, 
+                игр с нейрогаджетами и развития технологий нейромаркетинга. 
+                Также акцентируется внимание на развитии глубокого машинного обучения, 
+                персональных электронных ассистентов и нейроразвлечений
+              </p>
+              <div class="mt-2">
+                <a class="exx" href="https://nti2035.ru/markets/mneuronet">
+                  Подробнее...
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-4 py-md-5 my-3">
-      <div class="document p-3">
-        <h2 class="titleNapr text-center px-3 py-2 py-md-3">Что вас ждет?</h2>
+    <div class="conatainer-fluid" style="background-color: #020018;">
+      <div class="container-xxl py-5">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-md">
+            <h1 class="display-3 text-center text-light mb-5">Что вас ждёт?</h1>
+          </div>
+        </div>
         <div class="row align-items-center">
           <div class="col-md-6 pt-md-0 mb-3">
-            <img class="img-fluid rounded-4" src="@/assets/photos/photo1.jpg" alt="">
+            <img class="img-fluid rounded-4 shadow" src="@/assets/photos/photo1.jpg" alt="">
           </div>
           <div class="col-md-6 order-first order-md-last">
             <div class="row">
@@ -150,89 +169,91 @@
                 <p class="ab">Знакомство и общение  с <br> инвесторами, возможными партнерами и потенциальными клиентами</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row align-items-center mb-3 mb-md-0">
               <div class="col-auto">
                 <chevron_double />
               </div>
-              <div class="col ps-0 py-1">
-                <p class="ab">Привлечение финансирования</p>
+              <div class="col ps-0">
+                <p class="ab mb-0">Привлечение финансирования</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 my-3">
-      <h2 class="titleNapr text-center document p-3 mb-4">Программа акселератора</h2>
-      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2 g-md-3">
-        <div class="col">
-          <a href="" style="text-decoration: none; color:black;">
+    <div class="container-fluid" style="background-color: #10021d;">
+      <div class="container-xxl py-5">
+        <h1 class="display-3 text-center text-light mb-5">Программа акселератора</h1>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2 g-md-3">
+          <div class="col">
+            <a href="" style="text-decoration: none; color:black;">
+              <div class="document p-3 h-100 logo">
+                <p class="date">
+                  15 апреля - 15 июня
+                </p>
+                <p class="prog">
+                  Вводный этап
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col">
             <div class="document p-3 h-100 logo">
               <p class="date">
-                15 апреля - 15 июня
+                27 апреля
               </p>
               <p class="prog">
-                Вводный этап
+                Открытие акселератора
               </p>
             </div>
-          </a>
-        </div>
-        <div class="col">
-          <div class="document p-3 h-100 logo">
-            <p class="date">
-              27 апреля
-            </p>
-            <p class="prog">
-              Открытие акселератора
-            </p>
           </div>
-        </div>
-        <div class="col">
-          <div class="document p-3 h-100 logo">
-            <p class="date">
-              16 июня - 15 сентября
-            </p>
-            <p class="prog">
-              Школа выступлений «Ораторский Олимп»
-            </p>
+          <div class="col">
+            <div class="document p-3 h-100 logo">
+              <p class="date">
+                16 июня - 15 сентября
+              </p>
+              <p class="prog">
+                Школа выступлений «Ораторский Олимп»
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="document p-3 h-100 logo">
-            <p class="date">
-              16 сентября - 15 ноября
-            </p>
-            <p class="prog">
-              Развитие проектов
-            </p>
+          <div class="col">
+            <div class="document p-3 h-100 logo">
+              <p class="date">
+                16 сентября - 15 ноября
+              </p>
+              <p class="prog">
+                Развитие проектов
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="document p-3 h-100 logo">
-            <p class="date">
-              15 ноября
-            </p>
-            <p class="prog">
-              Демо-день
-            </p>
+          <div class="col">
+            <div class="document p-3 h-100 logo">
+              <p class="date">
+                15 ноября
+              </p>
+              <p class="prog">
+                Демо-день
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="document p-3 h-100 logo">
-            <p class="date">
-              15 ноября 2024 - 15 ноября 2025
-            </p>
-            <p class="prog">
-              Постакселерационная поддержка
-            </p>
+          <div class="col">
+            <div class="document p-3 h-100 logo">
+              <p class="date">
+                15 ноября 2024 - 15 ноября 2025
+              </p>
+              <p class="prog">
+                Постакселерационная поддержка
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 my-3">
-      <div class="document py-3 px-4 px-md-5 py-md-4">
-        <h2 class="titleNapr py-1 py-md-2">Приходи если у тебя...</h2>
-        <div class="row justify-content-center align-items-center">
+    <div class="container-fluid" style="background-color: #020e1a;">
+      <div class="container-xxl py-5">
+        <h1 class="display-3 text-light mb-5">Приходи если у тебя...</h1>
+        <div class="row justify-content-center align-items-center gy-5">
           <div class="col-md-6">
             <div class="row">
               <div class="col-auto">
@@ -258,54 +279,62 @@
                 <p class="ab">Нет идеи, но очень хочешь попробовать</p>
               </div>
             </div>
-            <div class="col-md-6 mt-2 mb-md-4">
-              <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
+            <div class="d-flex justify-content-center col pt-md-5">
+              <a href="https://leader-id.ru/events/494095" class="btn btn-outline-danger btn-lg" role="button">Подать заявку</a>
             </div>
           </div>
-          <div class="col-md-6 order-first order-md-last mb-3">
+          <div class="col-md-6 order-md-last mb-3">
             <img class="img-fluid" src="@/assets/photos/winner.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 my-3">
-      <div class="document py-3 px-4 px-md-5 py-md-4">
-        <h2 class="titleNapr py-1 py-md-2">Причины, чтобы подать заявку</h2>
+    <div class="container-fluid">
+      <div class="container-xxl py-5">
+        <h1 class="display-3 text-light mb-5">Причины, чтобы подать заявку</h1>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-6 order-md-1 order-first mb-3">
             <img class="img-fluid" src="@/assets/photos/final2.jpg" alt="">
           </div>
           <div class="col-md-6 pt-md-0 order-md-2">
             <div class="row align-items-center">
+              <p class="subsubtitle1 mt-md-4">
+                Твой проект будут поддерживать опытные наставники, трекеры,  и эксперты, а индустриальные партнеры подскажут в каком направлении стоит развиваться!
+              </p>
+            </div>
+            <div class="d-flex justify-content-center col pt-md-5">
+              <a href="https://leader-id.ru/events/494095" class="btn btn-outline-danger btn-lg" role="button">Подать заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center mt-4">
+          <div class="col">
+            <div class="row align-items-center mt-2">
               <div class="col-auto">
-                <search />
+                <i class="bi bi-gift" style="color: #eeff00"></i>
               </div>
               <div class="col">
-                <span class="ab">Подарки от партнёров</span>
+                <span class="ab mb-0">Подарки от партнёров</span>
               </div>
             </div>
+          </div>
+          <div class="col">
             <div class="row align-items-center">
               <div class="col-auto">
-                <search />
+                <i class="bi bi-file-text"></i>
               </div>
-              <div class="col mt-3">
+              <div class="col">
                 <p class="ab mb-0">Сертификат о прохождении акселерационной программы</p>
               </div>
             </div>
-            <div class="col-md-6 my-4">
-              <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
-            </div>
           </div>
-          <p class="order-md-3 subsubtitle mt-md-4">
-            Твой проект будут поддерживать опытные наставники, трекеры,  и эксперты, а индустриальные партнеры подскажут в каком направлении стоит развиваться!
-          </p>
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 my-3">
-      <div class="document py-3 px-4 px-md-5 py-md-4">
-        <h2 class="titleNapr py-1 py-md-2" style="z-index: 1;">А дальше...</h2>
+    <div class="container-fluid">
+      <div class="container-xxl py-5">
         <div class="row justify-content-center align-items-center ell">
+          <h2 class="titleNapr ps-5 ms-5 py-1 py-md-2" style="z-index: 1; color: #00a2ff">А дальше...</h2>
           <div class="ellipse">
             <ell />
           </div>
@@ -346,9 +375,9 @@
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 my-3">
-      <div class="document py-3 px-4 px-md-5 py-md-4">
-        <h2 class="titleNapr text-center py-1 py-md-2">Условия участия</h2>
+    <div class="container-fluid py-5">
+      <div class="container-xxl py-3 py-md-4 document">
+        <h2 class="titleNapr text-center text-md-start ms-md-5 ps-md-5 py-1 py-md-2">Условия участия</h2>
         <div class="row justify-content-center align-items-center ell">
           <div class="line_curved">
             <line_curved />
@@ -391,173 +420,245 @@
         </div>
       </div>
     </div>
-    <div class="py-3 py-md-5 my-3">
-      <h2 class="titleNapr text-center document p-3">Кто сопровождает проекты?</h2>
-      <div class="row justify-content-center align-items-center px-2">
-        <div class="row row-cols-1 row-cols-md-2 g-2 px-0">
-          <div class="col">
-            <div class="document p-4 h-100">
-              <h2 class="subsubtitle" style="font-style: normal;">Наставник</h2>
-              <p class="ab">помогает командам адаптироваться и решать организационные вопросы в ходе акселерационной программы</p>
+    <div class="container-fluid py-5">
+      <div class="container-xxl">
+        <h1 class="display-3 text-light text-center pt-md-5">Кто сопровождает проекты?</h1>
+        <div class="row justify-content-center align-items-center px-2">
+          <div class="row row-cols-1 row-cols-md-2 g-4 g-md-5">
+            <div class="col logo">
+              <div class="document p-4 h-100">
+                <h2 class="subsubtitle" style="font-style: normal;">Наставник</h2>
+                <p class="ab">помогает командам адаптироваться и решать организационные вопросы в ходе акселерационной программы</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="document p-4 h-100">
-              <h2 class="subsubtitle" style="font-style: normal;">Трекер</h2>
-              <p class="ab">проводит еженедельные встречи с командой проекта для поиска точек роста</p>
+            <div class="col logo">
+              <div class="document p-4 h-100">
+                <h2 class="subsubtitle" style="font-style: normal;">Трекер</h2>
+                <p class="ab">проводит еженедельные встречи с командой проекта для поиска точек роста</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="document p-4 h-100">
-              <h2 class="subsubtitle" style="font-style: normal;">Ментор</h2>
-              <p class="ab">консультант по предметному направлению проекта</p>
+            <div class="col logo">
+              <div class="document p-4 h-100">
+                <h2 class="subsubtitle" style="font-style: normal;">Ментор</h2>
+                <p class="ab">консультант по предметному направлению проекта</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="document p-4 h-100">
-              <h2 class="subsubtitle" style="font-style: normal;">Эксперт</h2>
-              <p class="ab">участвует в отборе и оценке проектов, проводит лекции и мастер-классы</p>
+            <div class="col logo">
+              <div class="document p-4 h-100">
+                <h2 class="subsubtitle" style="font-style: normal;">Эксперт</h2>
+                <p class="ab">участвует в отборе и оценке проектов, проводит лекции и мастер-классы</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-4 py-md-5 my-3">
-      <div class="document py-3 px-4 px-md-5 py-md-4">
-        <h2 class="titleNapr text-center mb-3 mb-md-4 px-3 py-2">Эксперты акселератора</h2>
-        <div class="row row-cols-md-4 row-cols-2 justify-content-center">
+    <div class="container-fluid" style="background-color: #0e0d0d;">
+      <div class="container-xxl py-5">
+        <h1 class="display-3 text-light text-center pb-5">Эксперты акселератора</h1>
+        <div class="row row-cols-md-4 row-cols-2 g-5 justify-content-center">
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp01.jpeg" alt="Василий Быков">
-              <a href="https://leader-id.ru/users/638214" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Василий Быков</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Василий Быков <br>
+                <a class="exx" href="https://leader-id.ru/users/638214">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp02.jpeg" alt="Андрей Визминтинов">
-              <a href="https://leader-id.ru/users/1840204" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Андрей Визминтинов</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Андрей Визминтинов <br>
+                <a class="exx" href="https://leader-id.ru/users/1840204">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp03.jpg" alt="Петр Козлов">
-              <a href="https://leader-id.ru/users/247802" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Петр Козлов</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Петр Козлов <br>
+                <a class="exx" href="https://leader-id.ru/users/247802">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp04.jpg" alt="Константин Курдюмов">
-              <a href="https://leader-id.ru/users/1926100" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Константин Курдюмов</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Константин Курдюмов <br>
+                <a class="exx" href="https://leader-id.ru/users/1926100">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp05.jpeg" alt="Виталий Мещеряков">
-              <a href="https://leaderid.ru/users/462719" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Виталий Мещеряков</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Виталий Мещеряков <br>
+                <a class="exx" href="https://leaderid.ru/users/462719">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp06.jpeg" alt="Сергей Мочалин">
-              <a href="https://leader-id.ru/users/1118150" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Сергей Мочалин</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Сергей Мочалин <br>
+                <a class="exx" href="https://leader-id.ru/users/111815">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp07.jpg" alt="Геннадий Салимгареев">
-              <a href="https://leader-id.ru/users/2041544" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Геннадий Салимгареев</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Геннадий Салимгареев <br>
+                <a class="exx" href="https://leader-id.ru/users/2041544">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp08.png" alt="Александр Сальников">
-              <a href="https://leader-id.ru/users/4642713" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Александр Сальников</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Александр Сальников <br>
+                <a class="exx" href="https://leader-id.ru/users/4642713">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp09.jpeg" alt="Анатолий Шастин">
-              <a href="https://leader-id.ru/users/513566" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Анатолий Шастин</h3>
-              </a>
+              <p class="exp mt-2 text-center">
+                Анатолий Шастин <br>
+                <a class="exx" href="https://leader-id.ru/users/513566">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/experts/exp10.jpeg" alt="Анатолий Шонин">
-              <a href="https://leader-id.ru/users/464151" style="text-decoration-color:#6843fe;">
-                <h3 class="exp mt-2 text-center">Анатолий Шонин</h3>
+              <p class="exp mt-2 text-center">
+                Анатолий Шонин <br>
+                <a class="exx" href="https://leader-id.ru/users/464151">
+                  LeaderID
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container-xxl py-5">
+        <h1 class="display-3 text-light text-center pb-5">Наши партнеры</h1>
+        <div class="d-flex flex-row flex-wrap justify-content-center gap-3">
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://atoria.awagas.group/">
+                <img class="img-fluid" src="@/assets/partners/awagas.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://pko-omsk.ru/">
+                <img class="img-fluid part" src="@/assets/partners/pko.png" alt="" >
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://t.me/omskdigit">
+                <img class="img-fluid part" src="@/assets/partners/cifra.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://www.dagc.ru/">
+                <img class="img-fluid part" src="@/assets/partners/datrade.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://omsksdnii.ru/">
+                <img class="img-fluid part" src="@/assets/partners/dornii.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://clck.ru/3A6uXn">
+                <img class="img-fluid part" src="@/assets/partners/skolkovo.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://www.industrialsystems.ru/">
+                <img class="img-fluid part" src="@/assets/partners/insist.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://raedium.ru/">
+                <img class="img-fluid part" src="@/assets/partners/redium.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://xn--d1ajefcadkb5an2h.xn--p1ai/">
+                <img class="img-fluid part" src="@/assets/partners/smarthome.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
+            <div class="p-4">
+              <a href="https://niitkd.com/ru">
+                <img class="img-fluid part" src="@/assets/partners/niitkd.png" alt="">
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="py-4 py-md-5 my-3">
-      <div class="document p-3">
-        <h2 class="titleNapr py-2 px-3">Наши партнеры</h2>
-        <div class="row row-cols-md-4 row-cols-2 g-6 justify-content-center align-items-center">
-          <a href="https://atoria.awagas.group/" class="col p-4 d-flex justify-content-center" style="transform: scale(.8);">
-            <img class="img-fluid logo part" src="@/assets/partners/awgas.png" alt="">
-          </a>
-          <a href="https://pko-omsk.ru/" class="col p-4 d-flex justify-content-center" style="transform: scale(.8);">
-            <img class="img-fluid logo part" src="@/assets/partners/pko.jpg" alt="">
-          </a>
-          <a href="https://t.me/omskdigit" class="col p-4 d-flex justify-content-center">
-            <img class="img-fluid logo part" src="@/assets/partners/cifra.jpeg" alt="">
-          </a>
-          <a href="https://www.dagc.ru/" class="col p-4 d-flex justify-content-center" style="transform: scale(.9);">
-            <img class="img-fluid logo part" src="@/assets/partners/datrade.png" alt="">
-          </a>
-          <a href="https://omsksdnii.ru/" class="col p-4 d-flex justify-content-center">
-            <img class="img-fluid logo part" src="@/assets/partners/dornii.jpg" alt="">
-          </a>
-          <a href="https://www.industrialsystems.ru/" class="col p-4 d-flex justify-content-center">
-            <img class="img-fluid logo part" src="@/assets/partners/insist.png" alt="">
-          </a>
-          <a href="https://raedium.ru/" class="col p-4 d-flex justify-content-center">
-            <img class="img-fluid logo part" src="@/assets/partners/redium.png" alt="">
-          </a>
-          <a href="https://xn--d1ajefcadkb5an2h.xn--p1ai/" class="col p-4 d-flex justify-content-center" style="transform: scale(.8);">
-            <img class="img-fluid logo part" src="@/assets/partners/smarthome.png" alt="">
-          </a>
-          <a href="https://niitkd.com/ru" class="col p-4 d-flex justify-content-center">
-            <img class="img-fluid logo part" src="@/assets/partners/niitkd.png" alt="">
-          </a>
-          <a href="https://clck.ru/3A6uXn" class="col p-4 d-flex justify-content-center" style="transform: scale(.8);">
-            <img class="img-fluid logo part" src="@/assets/partners/skolkovo.png" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="py-4 py-md-5 my-3">
-      <div class="document p-3">
-        <h2 class="titleNapr mb-3 mb-md-4 px-3 py-2">Наша команда</h2>
-        <div class="row row-cols-md-4 row-cols-2 justify-content-center px-3">
+    <div class="container-fluid" style="background-color: #0e0d0d;">
+      <div class="container-xxl py-5">
+        <h1 class="display-3 text-light pb-4">Наша команда</h1>
+        <div class="row row-cols-md-4 row-cols-2 g-5 justify-content-center">
           <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/team/team07.jpg" alt="Светлана Пестова">
               <h3 class="exp mt-2 text-center">Светлана Пестова</h3>
               <p class="role text-center">
-                Руководитель коллектива акселерационный программы
-                <a href="mailto:pestova_sv@mail.ru">
-                  pestova_sv@mail.ru
+                Руководитель коллектива акселерационный программы <br>
+                <a class="exx" href="https://leader-id.ru/users/477528">
+                  LeaderID
                 </a>
               </p>
             </div>
@@ -567,9 +668,9 @@
               <img class="img-fluid w-100" src="@/assets/team/team01.jpeg" alt="Алина Ладысь">
               <h3 class="exp mt-2 text-center">Алина Ладысь</h3>
               <p class="role text-center">
-                Администратор
-                <a href="mailto:linart.alina@mail.ru">
-                  linart.alina@mail.ru
+                Администратор <br>
+                <a href="https://leader-id.ru/users/494539">
+                  LeaderID
                 </a>
               </p>
             </div>
@@ -578,7 +679,12 @@
             <div>
               <img class="img-fluid w-100" src="@/assets/team/team03.jpeg" alt="Полина Харламова">
               <h3 class="exp mt-2 text-center">Полина Харламова</h3>
-              <p class="role text-center">Руководитель образовательной программы</p>
+              <p class="role text-center">
+                Руководитель образовательной программы <br>
+                <a class="exx" href="https://leader-id.ru/users/3055154">
+                  LeaderID
+                </a>
+              </p>
             </div>
           </div>
           <div class="col">
@@ -586,9 +692,9 @@
               <img class="img-fluid w-100" src="@/assets/team/team04.jpg" alt="Сергей Игнатов">
               <h3 class="exp mt-2 text-center">Сергей Игнатов</h3>
               <p class="role text-center">
-                Менеджер по работе с командами-участниками
-                <a href="mailto:ignsd@mail.ru">
-                  ignsd@mail.ru
+                Менеджер по работе с командами-участниками <br>
+                <a class="exx" href="https://leader-id.ru/users/470168">
+                  LeaderID
                 </a>
               </p>
             </div>
@@ -598,34 +704,38 @@
               <img class="img-fluid w-100" src="@/assets/team/team05.jpg" alt="Ольга Мищенко">
               <h3 class="exp mt-2 text-center">Ольга Мищенко</h3>
               <p class="role text-center">
-                PR-специалист
-                <a href="mailto:marketing@sibadi.org">
-                  marketing@sibadi.org
+                PR-специалист <br>
+                <a class="exx" href="https://leader-id.ru/users/648691">
+                  LeaderID
                 </a>
               </p>
             </div>
           </div>
-          <div class="col">
+          <!-- <div class="col">
             <div>
               <img class="img-fluid w-100" src="@/assets/team/team06.jpg" alt="Елизавета Канева">
               <h3 class="exp mt-2 text-center">Елизавета Канева</h3>
               <p class="role text-center">SMM-специалист</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
-    <div class="py-4 py-md-5 my-3">
-      <div class="document px-4 py-3">
-        <h2 class="titleNapr mb-3 mb-md-4 px-3 py-2 text-center">Итоги программы «Акселератор -0+500»</h2>
+    <div class="container-fluid">
+      <div class="container-xxl py-5">
+        <h1 class="text-light display-4 pb-3 text-center">Итоги программы «Акселератор -0+500»</h1>
         <p class="text-center final px-3">
-          15 декабря в «Точке кипения - Омск» состоялся финал акселератора «-0 +500». В финал вышли 14 команд, отобранных экспертами, были определены три победителя.
+          15 декабря 2023 года в «Точке кипения - Омск» состоялся финал акселератора «-0 +500». В финал вышли 14 команд, отобранных экспертами, были определены три победителя.
         </p>
-        <a href="https://vk.com/point.omsk?w=wall-195453782_2596">
-          <p class="text-center final px-3">
-            Итоги работы
-          </p>
-        </a>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a href="https://vk.com/point.omsk?w=wall-195453782_2596">
+            <p class="btn btn-outline-success px-3">
+              Итоги работы
+            </p>
+          </a>
+          </div>
+        </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-2">
           <div class="col">
             <div>
@@ -661,33 +771,32 @@
       </div>
     </div>
   </div>
-  <footer class="d-flex justify-content-center align-items-center py-4" @contextmenu.prevent>
-    <div class="container-xxl py-4 py-md-5 my-3">
-      <p class="text-center slogan" data-aos="fade-right">
-        Создаём будущее вместе!
-      </p>
-      <div class="text-center py-4" data-aos="fade-left">
-        <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
-      </div>
-      <p class="subtitle text-center" data-aos="fade-right">
-        c 15 апреля по 15 ноября
-      </p>
-      <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4" data-aos="fade-up">
-        <a href="https://t.me/akseleretor_sibadi">
-          <telegram class="logo" />
-        </a>
-        <a href="https://vk.com/club225258283">
-          <vk class="logo"/>
-        </a>
-        <a href="mailto:projectoffice@sibadi.org">
-          <email class="logo"/>
-        </a>
+  <footer class="py-4">
+    <div class="container-fluid">
+      <div class="container-xxl py-5">
+        <p class="text-center slogan">
+          Создаём будущее вместе!
+        </p>
+        <div class="text-center py-4">
+          <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
+        </div>
+        <p class="subtitle text-center">
+          c 15 апреля по 15 ноября
+        </p>
+        <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4">
+          <a href="https://t.me/akseleretor_sibadi">
+            <telegram class="logo" />
+          </a>
+          <a href="https://vk.com/club225258283">
+            <vk class="logo"/>
+          </a>
+          <a href="mailto:projectoffice@sibadi.org">
+            <email class="logo"/>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
-  <button class="btnUp" @click="scrollToTop" v-show="isVisible">
-      <i class="bi bi-chevron-up"></i>
-  </button>
 </template>
 
 <script>
@@ -719,22 +828,11 @@
       line_curved,
       chevron_double_up,
     },
-    data() {
-      return {
-        isVisible: false
-      };
-    },
     mounted() {
       AOS.init({
         duration: 800, // Длительность анимации в миллисекундах
         once: true // Анимация будет проигрываться только один раз при скролле вниз
       });
-    },
-    created() {
-      window.addEventListener("scroll", this.handleScroll);
-    },
-    destroyed() {
-      window.removeEventListener("scroll", this.handleScroll);
     },
     methods: {
       scrollToTop() {
@@ -743,23 +841,41 @@
           behavior: "smooth"
         });
       },
-      handleScroll() {
-        this.isVisible = window.scrollY > 200;
-      }
     }
 }
 </script>
 
 <style scoped>
+.container-fluid {
+  /* padding: 20px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Это создаст размытость границы */
+  /* margin-bottom: 20px; */
+}
+.card {
+  background: none;
+  border-radius: 1rem;
+  /* border: none; */
+  border: 1px solid white;
+  padding: 1rem;
+}
+.bi {
+  font-size: 4.2cqmax;
+  @media (max-width: 768px) {
+    font-size: 2.5cqmax;
+  }
+  color: white;
+}
 .prog {
   font-size: 1.5cqmax;
   @media (max-width: 896px) {
     font-size: 2.5cqmax;
   }
+  color: white;
 }
 .date {
   font-family: 'DM Sans', sans-serif;
-  color:#6843fe;
+  color:#a792fa;
   font-size: 1.3cqmax;
   @media (max-width: 896px) {
     font-size: 2.5cqmax;
@@ -767,6 +883,7 @@
 }
 .role {
   font-size: 1cqmax;
+  color: #b1b1b1;
   @media (max-width: 896px) {
     font-size: 1.4cqmax;
   }
@@ -776,22 +893,20 @@
   @media (max-width: 896px) {
     font-size: 1.6cqmax;
   }
+  color: #dcf8bd;
+  font-family: 'DM Sans', sans-serif ;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
 }
 p.about_napr {
   margin: 0;
 }
-.about_wrapper {
-  background-color: #f9faff;
-  border-radius: 1.125rem;
-}
 .btnUp {
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
+  /* cursor: pointer; */
   width:2.5rem; 
   height: 2.5rem;
   position: fixed; 
-  bottom: 1rem;
+  bottom: 20px;
   z-index: 1;
   background-color: #6843fe;
   text-decoration: none;
@@ -799,7 +914,7 @@ p.about_napr {
   font-size: 1.5rem;
   color: white;
   outline: none;
-  right: 1rem;
+  right: 20px;
   border-radius: 50%;
   box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.6);
   opacity: .7;
@@ -817,14 +932,14 @@ p.about_napr {
 }
 .ellipse {
   position: absolute;
-  top: -27cqmax;
+  top: -21.5cqmax;
   left: 7cqmax;
   transform: scale(.535);
   z-index: 0;
 }
 @media (max-width: 896px){
   .ellipse {
-    top: -530px;
+    top: -480px;
     left: -90px;
     transform: scale(.297);
   }
@@ -837,29 +952,34 @@ p.about_napr {
   position: relative;
 }
 .document {
-  background-color: #fff;
   border-radius: 1.125rem;
+  border: 2px solid rgb(134, 134, 134);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .ab {
-  font-size: 3cqmin;
+  color: white;
+  font-size: 2.5cqmin;
+  @media (max-width: 768px) {
+    font-size: 3cqmin;
+  }
 }
 .final {
   font-size: 2.5cqmin;
   @media (max-width: 768px) {
     font-size: 3cqmin;
   }
+  color: #d4fca7;
 }
 .titleNapr {
   color: #FF2323;
   font-size: 3cqmax;
-  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'DM Sans', sans-serif; */
   font-weight: 700;
 }
 .exp {
-  font-size: 1cqmax;
+  font-size: 1.3cqmax;
   font-weight: 700;
-  color: #6843fe;
+  color: #b1b1b1;
   @media (max-width: 896px) {
     font-size: 2cqmax;
   }
@@ -868,9 +988,12 @@ p.about_napr {
 .subsubtitle {
   font-size: 2cqmax;
   font-weight: 700;
-  font-style: italic;
-  color: #6843fe;
-  
+  color: #a7fe43;
+}
+.subsubtitle1 {
+  font-size: 1.7cqmax;
+  font-weight: 700;
+  color: #a7fe43;
 }
 .subtitle {
   font-family: 'DM Sans', sans-serif;
@@ -880,6 +1003,15 @@ p.about_napr {
     font-size: 3cqmin;
   }
 }
+.btn-outline-success {
+  background-color: none;
+  border: 2px solid #198754;
+  font-size: 2cqmin;
+  padding-inline: 3rem;
+  padding-block: .5rem;
+  border-radius: .75rem;
+  font-family: 'DM Sans', sans-serif;
+}
 .btn-danger {
   border-radius: .75rem;
   color: white;
@@ -887,12 +1019,28 @@ p.about_napr {
   font-size: 2.54cqmin;
   padding-inline: 3rem;
   padding-block: 1rem;
-  font-weight: 700;
   font-family: 'DM Sans', sans-serif;
   @media (max-width: 896px) {
     font-size: 4cqmin;
   }
   transition: all .5s;
+  font-weight: 700;
+}
+.btn-outline-danger {
+  background-color: none;
+  border: 2px solid #FF2323;
+  font-size: 3cqmin;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  color: white;
+  @media (max-width: 896px) {
+    font-size: 4cqmin;
+  }
+  border-radius: .75rem;
+  font-family: 'DM Sans', sans-serif;
+}
+.btn-outline-danger:hover {
+  background-color: #FF2323;
 }
 .btn-danger:hover {
   transform: scale(1.05);
@@ -923,11 +1071,9 @@ p.about_napr {
   font-weight: 700;
 }
 .napr-about {
-  font-family: 'DM Sans', sans-serif;
   @media (max-width: 896px) {
     font-size: 2.5cqmax;
   }
-  /* font-weight: 700; */
 }
 header {
   background: linear-gradient(rgba(17, 15, 44, .6), rgba(17, 15, 44, .8)), url(
@@ -963,5 +1109,15 @@ img.exp {
 }
 img.part {
   border-radius: 0;
+}
+a.exx {
+  text-decoration: none;
+  border-bottom:1px solid;
+  border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+a.exx:visited {
+  text-decoration: none;
+  color: #a792fa;
+  border-bottom-color: rgba(128, 0, 128, 0.2);
 }
 </style>
