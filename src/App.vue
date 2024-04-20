@@ -1,7 +1,7 @@
 <template>
   <header class="d-flex align-items-center" style="min-height: 100vh;" @contextmenu.prevent>
     <div class="container-xxl">
-      <div class="d-flex align-items-center justify-content-center fs-5 justify-content-md-start gap-4 gap-md-5 mb-4 mb-md-6">
+      <div class="d-flex align-items-center justify-content-center fs-5 justify-content-md-start gap-4 gap-md-5">
         <a href="https://sibadi.org/" data-aos="zoom-in">
           <img class="logo" style="max-height: 5rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
         </a>
@@ -13,7 +13,7 @@
         </a>
       </div>
       <div class="row align-items-center">
-        <div class="col-md-6 pt-md-0" data-aos="fade-right">
+        <div class="col-md-6" data-aos="fade-right">
           <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center text-md-start title">
             Акселератор
             <br>
@@ -24,10 +24,10 @@
             <br>
             <span class="secondLine">-0+500.Сибирь</span>
           </div>
-          <div class="d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block fs-cqw text-center pt-4 pb-3 text-md-start slogan">
+          <div class="d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block fs-cqw text-center pt-3 pb-3 text-md-start slogan">
             Создаём будущее вместе!
           </div>
-          <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center pt-3 pb-2 text-md-start slogan">
+          <div class="d-block d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fs-0 text-center pt-3 pb-1 text-md-start slogan">
             Создаём будущее вместе!
           </div>
           <div class="d-flex gap-3 gap-md-4 tit-1 justify-content-center d-inline d-md-none">
@@ -48,7 +48,7 @@
               c 15 апреля по 15 ноября 2024 года
             </div>
           </div>
-          <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center justify-content-md-start" data-aos="slide-up">
+          <div class="d-flex fs-4 gap-5 text-white justify-content-center mt-3 justify-content-md-start" data-aos="fade">
             <a href="https://t.me/akseleretor_sibadi">
               <telegram class="logo" />
             </a>
@@ -61,9 +61,9 @@
           </div>
         </div>
         <div class="col-md-6 order-first order-md-last">
-          <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-3" data-aos="fade-left">
+          <div class="col d-flex justify-content-center mt-4 mt-md-0" data-aos="fade-left">
             <!-- TODO: Change the logo after the release-->
-            <img class="acc" style="max-width: 21vmax;" src="@/assets/logo/-0+500.png" alt="-0+500">
+            <img class="acc" style="max-width: 35vmax;" src="@/assets/logo.png" alt="-0+500">
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
   <div style="overflow: hidden; ">
     <div class="container-fluid" style="background-color: #0c0625; background-image: url(/src/assets/auto.png); background-size: auto;">
       <div class="container-xxl py-3 py-md-5">
-        <h1 class="display-3 my-3 mb-5 text-center text-light">Направления акселератора</h1>
+        <h1 class="display-3 my-3 mb-5 text-center text-light" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Направления акселератора</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
           <div class="col" style="background-color: #0c0625;">
             <div class="p-4 h-100 card">
@@ -129,7 +129,7 @@
         <div class="row">
           <div class="col"></div>
           <div class="col-md">
-            <h1 class="display-3 text-center text-light mb-5">Что вас ждёт?</h1>
+            <h1 class="display-3 text-center text-light mb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Что вас ждёт?</h1>
           </div>
         </div>
         <div class="row align-items-center">
@@ -183,7 +183,7 @@
     </div>
     <div class="container-fluid" style="background-color: #10021d;">
       <div class="container-xxl py-5">
-        <h1 class="display-3 text-center text-light mb-5">Программа акселератора</h1>
+        <h1 class="display-3 text-center text-light mb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Программа акселератора</h1>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2 g-md-3">
           <div class="col">
             <a href="" style="text-decoration: none; color:black;">
@@ -192,7 +192,7 @@
                   15 апреля - 15 июня
                 </p>
                 <p class="prog">
-                  Вводный этап
+                  Первый этап
                 </p>
               </div>
             </a>
@@ -200,7 +200,7 @@
           <div class="col">
             <div class="document p-3 h-100 logo">
               <p class="date">
-                27 апреля
+                23 апреля
               </p>
               <p class="prog">
                 Открытие акселератора
@@ -252,7 +252,7 @@
     </div>
     <div class="container-fluid" style="background-color: #020e1a;">
       <div class="container-xxl py-5">
-        <h1 class="display-3 text-light mb-5">Приходи если у тебя...</h1>
+        <h1 class="display-3 text-light mb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Приходи если у тебя...</h1>
         <div class="row justify-content-center align-items-center gy-5">
           <div class="col-md-6">
             <div class="row">
@@ -291,7 +291,7 @@
     </div>
     <div class="container-fluid">
       <div class="container-xxl py-5">
-        <h1 class="display-3 text-light mb-5">Причины, чтобы подать заявку</h1>
+        <h1 class="display-3 text-light mb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Причины, чтобы подать заявку</h1>
         <div class="row justify-content-center align-items-center">
           <div class="col-md-6 order-md-1 order-first mb-3">
             <img class="img-fluid" src="@/assets/photos/final2.jpg" alt="">
@@ -303,7 +303,7 @@
               </p>
             </div>
             <div class="d-flex justify-content-center col pt-md-5">
-              <a href="https://leader-id.ru/events/494095" class="btn btn-outline-danger btn-lg" role="button">Подать заявку</a>
+              <a href="https://leader-id.ru/events/494095" class="btn btn-outline-danger btn-lg" role="button">Зарегистрировать проект</a>
             </div>
           </div>
         </div>
@@ -334,7 +334,7 @@
     <div class="container-fluid">
       <div class="container-xxl py-5">
         <div class="row justify-content-center align-items-center ell">
-          <h2 class="titleNapr ps-5 ms-5 py-1 py-md-2" style="z-index: 1; color: #00a2ff">А дальше...</h2>
+          <h2 class="titleNapr ps-5 ms-5 py-1 py-md-2" style="z-index: 1; color: #00a2ff; font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">А дальше...</h2>
           <div class="ellipse">
             <ell />
           </div>
@@ -357,18 +357,10 @@
             </div>
             <div class="row align-items-center py-2">
               <div class="col-auto">
-                <check_double />
-              </div>
-              <div class="col">
-                <p class="ab mb-0">Возможность получения гранта в размере 1 000 000 рублей <br> от Фонда Содействия Инновациям</p>
-              </div>
-            </div>
-            <div class="row align-items-center py-2">
-              <div class="col-auto">
                 <check_double class="last"/>
               </div>
               <div class="col">
-                <p class="ab mb-0">Зачёт автоматом по дисциплине «Основы проектной деятельности»</p>
+                <p class="ab mb-0">Возможность получения гранта в размере 1 000 000 рублей <br> от Фонда Содействия Инновациям</p>
               </div>
             </div>
           </div>
@@ -377,7 +369,7 @@
     </div>
     <div class="container-fluid py-5">
       <div class="container-xxl py-3 py-md-4 document">
-        <h2 class="titleNapr text-center text-md-start ms-md-5 ps-md-5 py-1 py-md-2">Условия участия</h2>
+        <h2 class="titleNapr text-center text-md-start ms-md-5 ps-md-5 py-1 py-md-2" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Условия участия</h2>
         <div class="row justify-content-center align-items-center ell">
           <div class="line_curved">
             <line_curved />
@@ -422,7 +414,7 @@
     </div>
     <div class="container-fluid py-5">
       <div class="container-xxl">
-        <h1 class="display-3 text-light text-center pt-md-5">Кто сопровождает проекты?</h1>
+        <h1 class="display-3 text-light text-center pt-md-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Кто сопровождает проекты?</h1>
         <div class="row justify-content-center align-items-center px-2">
           <div class="row row-cols-1 row-cols-md-2 g-4 g-md-5">
             <div class="col logo">
@@ -455,7 +447,7 @@
     </div>
     <div class="container-fluid" style="background-color: #0e0d0d;">
       <div class="container-xxl py-5">
-        <h1 class="display-3 text-light text-center pb-5">Эксперты акселератора</h1>
+        <h1 class="display-3 text-light text-center pb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Эксперты акселератора</h1>
         <div class="row row-cols-md-4 row-cols-2 g-5 justify-content-center">
           <div class="col">
             <div>
@@ -572,7 +564,7 @@
     </div>
     <div class="container-fluid">
       <div class="container-xxl py-5">
-        <h1 class="display-3 text-light text-center pb-5">Наши партнеры</h1>
+        <h1 class="display-3 text-light text-center pb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Наши партнеры</h1>
         <div class="d-flex flex-row flex-wrap justify-content-center gap-3">
           <div class="d-flex align-items-center logo" style="background-color: #fff; border-radius: 1.125rem;">
             <div class="p-4">
@@ -649,7 +641,7 @@
     </div>
     <div class="container-fluid" style="background-color: #0e0d0d;">
       <div class="container-xxl py-5">
-        <h1 class="display-3 text-light pb-4">Наша команда</h1>
+        <h1 class="display-3 text-light pb-4" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Наша команда</h1>
         <div class="row row-cols-md-4 row-cols-2 g-5 justify-content-center">
           <div class="col">
             <div>
@@ -669,7 +661,7 @@
               <h3 class="exp mt-2 text-center">Алина Ладысь</h3>
               <p class="role text-center">
                 Администратор <br>
-                <a href="https://leader-id.ru/users/494539">
+                <a class="exx" href="https://leader-id.ru/users/494539">
                   LeaderID
                 </a>
               </p>
@@ -723,7 +715,7 @@
     </div>
     <div class="container-fluid">
       <div class="container-xxl py-5">
-        <h1 class="text-light display-4 pb-3 text-center">Итоги программы «Акселератор -0+500»</h1>
+        <h1 class="text-light display-4 pb-3 text-center" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Итоги программы «Акселератор -0+500»</h1>
         <p class="text-center final px-3">
           15 декабря 2023 года в «Точке кипения - Омск» состоялся финал акселератора «-0 +500». В финал вышли 14 команд, отобранных экспертами, были определены три победителя.
         </p>
@@ -793,6 +785,9 @@
           <a href="mailto:projectoffice@sibadi.org">
             <email class="logo"/>
           </a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="/src/assets/logo_x.png" style="max-width: 15rem;">
         </div>
       </div>
     </div>
@@ -890,6 +885,7 @@
 }
 .about_napr {
   font-size: 1.3rem;
+  font-family: 'Helvetica', sans-serif;
   @media (max-width: 896px) {
     font-size: 1.6cqmax;
   }
@@ -966,8 +962,9 @@ p.about_napr {
 .final {
   font-size: 2.5cqmin;
   @media (max-width: 768px) {
-    font-size: 3cqmin;
+    font-size: 3.25cqmin;
   }
+  font-family: 'Helvetica', sans-serif;
   color: #d4fca7;
 }
 .titleNapr {
@@ -996,7 +993,7 @@ p.about_napr {
   color: #a7fe43;
 }
 .subtitle {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 2.5cqmin;
   font-weight: 500;
   @media (max-width: 896px) {
@@ -1011,6 +1008,9 @@ p.about_napr {
   padding-block: .5rem;
   border-radius: .75rem;
   font-family: 'DM Sans', sans-serif;
+  @media (max-width: 896px) {
+    font-size: 4cqmin;
+  }
 }
 .btn-danger {
   border-radius: .75rem;
@@ -1019,7 +1019,7 @@ p.about_napr {
   font-size: 2.54cqmin;
   padding-inline: 3rem;
   padding-block: 1rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   @media (max-width: 896px) {
     font-size: 4cqmin;
   }
@@ -1049,26 +1049,28 @@ p.about_napr {
 }
 
 .title {
-  font-size: 5cqmax;
+  font-size: 4.6cqmax;
   color: white;
   font-weight: 700;
-  line-height: normal;
+  line-height: 4.6cqmax;
+  font-family: 'TT Fors Trial', sans-serif;
 }
 .secondLine {
   color: #FF2323;
+  font-family: 'TT Fors Trial', sans-serif;
 }
 .slogan {
   font-size: 1.85cqmax;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   color: white;
   @media (max-width: 768px) {
     font-size: 2.5cqmax;
   }
 }
 .napr {
-  font-family: 'DM Sans', sans-serif ;
+  font-family: 'TT Fors Trial', sans-serif ;
   font-size: 2.5cqmax;
-  font-weight: 700;
+  font-weight: 600;
 }
 .napr-about {
   @media (max-width: 896px) {
@@ -1114,10 +1116,5 @@ a.exx {
   text-decoration: none;
   border-bottom:1px solid;
   border-bottom-color: rgba(15, 122, 252, 0.2);
-}
-a.exx:visited {
-  text-decoration: none;
-  color: #a792fa;
-  border-bottom-color: rgba(128, 0, 128, 0.2);
 }
 </style>
