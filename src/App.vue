@@ -662,7 +662,6 @@
               <p class="role text-center">
                 Администратор <br>
                 <a class="exx" href="https://leader-id.ru/users/494539">
-                <a class="exx" href="https://leader-id.ru/users/494539">
                   LeaderID
                 </a>
               </p>
