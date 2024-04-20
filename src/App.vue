@@ -69,12 +69,12 @@
       </div>
     </div>
   </header>
-  <div style="overflow: hidden; ">
+  <div>
     <div class="container-fluid" style="background-color: #0c0625; background-image: url(/src/assets/auto.png); background-size: auto;">
       <div class="container-xxl py-3 py-md-5">
         <h1 class="display-3 my-3 mb-5 text-center text-light">Направления акселератора</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
-          <div class="col" style="background-color: #0c0625;">
+          <div class="col imn" style="background-color: #0c0625;">
             <div class="p-4 h-100 card">
               <h3 class="napr-about text-center mb-2 fs-3" style="color: #a28df7;">Автонет</h3>
               <p class="about_napr">
@@ -669,7 +669,7 @@
               <h3 class="exp mt-2 text-center">Алина Ладысь</h3>
               <p class="role text-center">
                 Администратор <br>
-                <a href="https://leader-id.ru/users/494539">
+                <a class="exx" href="https://leader-id.ru/users/494539">
                   LeaderID
                 </a>
               </p>
@@ -829,10 +829,7 @@
       chevron_double_up,
     },
     mounted() {
-      AOS.init({
-        duration: 800, // Длительность анимации в миллисекундах
-        once: true // Анимация будет проигрываться только один раз при скролле вниз
-      });
+      AOS.init();
     },
     methods: {
       scrollToTop() {
@@ -1115,9 +1112,5 @@ a.exx {
   border-bottom:1px solid;
   border-bottom-color: rgba(15, 122, 252, 0.2);
 }
-a.exx:visited {
-  text-decoration: none;
-  color: #a792fa;
-  border-bottom-color: rgba(128, 0, 128, 0.2);
-}
+
 </style>
