@@ -62,7 +62,6 @@
         </div>
         <div class="col-md-6 order-first order-md-last">
           <div class="col d-flex justify-content-center mt-4 mt-md-0" data-aos="fade-left">
-            <!-- TODO: Change the logo after the release-->
             <img class="acc" style="max-width: 35vmax;" src="@/assets/logo.png" alt="-0+500">
           </div>
         </div>
@@ -303,7 +302,7 @@
               </p>
             </div>
             <div class="d-flex justify-content-center col pt-md-5">
-              <a href="https://leader-id.ru/events/494095" class="btn btn-outline-danger btn-lg" role="button">Зарегистрировать проект</a>
+              <a href="https://pt.2035.university/accelerator/450" class="btn btn-outline-danger btn-lg" role="button">Зарегистрировать проект</a>
             </div>
           </div>
         </div>
@@ -334,7 +333,7 @@
     <div class="container-fluid">
       <div class="container-xxl py-5">
         <div class="row justify-content-center align-items-center ell">
-          <h2 class="titleNapr ps-5 ms-5 py-1 py-md-2" style="z-index: 1; color: #00a2ff; font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">А дальше...</h2>
+          <h2 class="titleNapr ps-5 ms-5 py-1 py-md-2" style="z-index: 1; color: #00a2ff; font-family: 'TT Fors Trial', sans-serif; font-weight: 500;">А дальше...</h2>
           <div class="ellipse">
             <ell />
           </div>
@@ -369,7 +368,7 @@
     </div>
     <div class="container-fluid py-5">
       <div class="container-xxl py-3 py-md-4 document">
-        <h2 class="titleNapr text-center text-md-start ms-md-5 ps-md-5 py-1 py-md-2" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Условия участия</h2>
+        <h2 class="titleNapr text-center text-md-start ms-md-5 ps-md-5 py-1 py-md-2" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 500;">Условия участия</h2>
         <div class="row justify-content-center align-items-center ell">
           <div class="line_curved">
             <line_curved />
@@ -764,7 +763,7 @@
     </div>
   </div>
   <footer class="py-4">
-    <div class="container-fluid">
+    <div class="container-fluid" style="box-shadow: none;">
       <div class="container-xxl py-5">
         <p class="text-center slogan">
           Создаём будущее вместе!
@@ -787,7 +786,7 @@
           </a>
         </div>
         <div class="d-flex justify-content-center align-items-center">
-          <img src="/src/assets/logo_x.png" style="max-width: 15rem;">
+          <img class="logo" src="/src/assets/logo_x.png" style="max-width: 15rem;">
         </div>
       </div>
     </div>
@@ -839,10 +838,8 @@
 
 <style scoped>
 .container-fluid {
-  /* padding: 20px; */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Это создаст размытость границы */
-  /* margin-bottom: 20px; */
 }
 .card {
   background: none;
