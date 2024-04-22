@@ -772,7 +772,7 @@
           <a href="https://leader-id.ru/events/494095" class="btn btn-danger" role="button">Подать заявку</a>
         </div>
         <p class="subtitle text-center">
-          c 15 апреля по 15 ноября
+          c 15 апреля по 15 ноября <br> 2024 года
         </p>
         <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4">
           <a href="https://t.me/akseleretor_sibadi">
@@ -952,6 +952,7 @@ p.about_napr {
   @media (max-width: 768px) {
     font-size: 3cqmin;
   }
+  font-family: 'Helvetica', sans-serif;
 }
 .final {
   font-size: 2.5cqmin;
