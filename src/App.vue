@@ -3,13 +3,13 @@
     <div class="container-xxl">
       <div class="d-flex align-items-center justify-content-center fs-5 justify-content-md-start gap-4 gap-md-5">
         <a href="https://sibadi.org/" data-aos="zoom-in">
-          <img class="logo" style="max-height: 5rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
+          <img class="logo" style="max-height: 4rem;" src="@/assets/logo/sibadi.png" alt="sibadi">
         </a>
         <a href="https://univertechpred.ru/" data-aos="zoom-in">
-          <img class="logo" style="max-height: 5rem;" src="@/assets/logo/PUTP.png" alt="putp">
+          <img class="logo" style="max-height: 4rem;" src="@/assets/logo/PUTP.png" alt="putp">
         </a>
         <a href="https://vk.com/point.omsk" data-aos="zoom-in">
-          <img class="logo" style="max-height: 4.1rem;" src="@/assets/logo/dot.png" alt="dot">
+          <img class="logo" style="max-height: 4rem;" src="@/assets/logo/dot.png" alt="dot">
         </a>
       </div>
       <div class="row align-items-center">
@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="col-md-6 order-first order-md-last">
-          <div class="col d-flex justify-content-center mt-4 mt-md-0" data-aos="fade-left">
+          <div class="col d-flex justify-content-center mt-4 mt-md-0 mb-md-5" data-aos="fade-left">
             <img class="acc" style="max-width: 35vmax;" src="@/assets/logo.png" alt="-0+500">
           </div>
         </div>
@@ -69,7 +69,7 @@
     </div>
   </header>
   <div>
-    <div class="container-fluid" style="background-color: #0c0625; background-image: url(/src/assets/auto.png); background-size: auto;">
+    <div class="container-fluid" style="background-color: #0c0625;">
       <div class="container-xxl py-3 py-md-5">
         <h1 class="display-3 my-3 mb-5 text-center text-light" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Направления акселератора</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
@@ -765,7 +765,7 @@
         <p class="subtitle text-center">
           c 15 апреля по 15 ноября <br> 2024 года
         </p>
-        <div class="d-flex fs-4 gap-5 text-white mt-3 mt-md-6 justify-content-center py-4">
+        <div class="d-flex fs-4 gap-5 text-white mt-2 mt-md-6 justify-content-center py-3">
           <a href="https://t.me/akseleretor_sibadi">
             <telegram class="logo" />
           </a>
@@ -865,14 +865,14 @@
   font-size: 1cqmax;
   color: #b1b1b1;
   @media (max-width: 896px) {
-    font-size: 1.4cqmax;
+    font-size: 1.8cqmax;
   }
 }
 .about_napr {
   font-size: 1.3rem;
   font-family: 'Helvetica', sans-serif;
   @media (max-width: 896px) {
-    font-size: 1.6cqmax;
+    font-size: 1.8cqmax;
   }
   color: #dcf8bd;
   font-family: 'DM Sans', sans-serif ;
@@ -941,7 +941,7 @@ p.about_napr {
   color: white;
   font-size: 2.5cqmin;
   @media (max-width: 768px) {
-    font-size: 3cqmin;
+    font-size: 3.6cqmin;
   }
   font-family: 'Helvetica', sans-serif;
 }
@@ -983,7 +983,7 @@ p.about_napr {
   font-size: 2.5cqmin;
   font-weight: 500;
   @media (max-width: 896px) {
-    font-size: 3cqmin;
+    font-size: 3.5cqmin;
   }
 }
 .btn-outline-success {
@@ -1064,7 +1064,7 @@ p.about_napr {
   }
 }
 header {
-  background: linear-gradient(rgba(17, 15, 44, .6), rgba(17, 15, 44, .8)), url(
+  background: linear-gradient(rgba(17, 15, 44, .6), rgba(17, 15, 44, .99)), url(
     @/assets/background.jpg) center;
   background-position: center;
   background-attachment: fixed;
