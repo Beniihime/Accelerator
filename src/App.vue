@@ -185,16 +185,14 @@
         <h1 class="display-3 text-center text-light mb-5" style="font-family: 'TT Fors Trial', sans-serif; font-weight: 300;">Программа акселератора</h1>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2 g-md-3">
           <div class="col">
-            <a href="" style="text-decoration: none; color:black;">
-              <div class="document p-3 h-100 logo">
-                <p class="date">
-                  15 апреля - 15 июня
-                </p>
-                <p class="prog">
-                  Первый этап
-                </p>
-              </div>
-            </a>
+            <div class="document p-3 h-100 logo">
+              <p class="date">
+                15 апреля - 15 июня
+              </p>
+              <p class="prog">
+                Первый этап
+              </p>
+            </div>
           </div>
           <div class="col">
             <div class="document p-3 h-100 logo">
@@ -702,13 +700,6 @@
               </p>
             </div>
           </div>
-          <!-- <div class="col">
-            <div>
-              <img class="img-fluid w-100" src="@/assets/team/team06.jpg" alt="Елизавета Канева">
-              <h3 class="exp mt-2 text-center">Елизавета Канева</h3>
-              <p class="role text-center">SMM-специалист</p>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
